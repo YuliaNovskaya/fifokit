@@ -305,6 +305,38 @@ body {
   font-size: 14px;
 }
 
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.step-card {
+  background: #1D1D1D;
+  border: 1px solid #2A2A2A;
+  padding: 40px;
+}
+
+.step-card span {
+  display: inline-block;
+  color: var(--orange);
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.step-card h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.step-card p {
+  color: #D0D0D0;
+  line-height: 1.7;
+}
+
 @media (max-width: 768px) {
   .wage-row {
   grid-template-columns: 1fr;
