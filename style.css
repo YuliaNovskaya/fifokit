@@ -271,7 +271,46 @@ body {
   text-transform: uppercase;
 }
 
+.wage-table {
+  border: 1px solid #2A2A2A;
+}
+
+.wage-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 24px 32px;
+  border-bottom: 1px solid #2A2A2A;
+  background: #1A1A1A;
+}
+
+.wage-row:last-child {
+  border-bottom: none;
+}
+
+.wage-header {
+  background: var(--orange);
+  color: var(--black);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.wage-row div {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.wage-note {
+  margin-top: 24px;
+  color: #BDBDBD;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
+  .wage-row {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  }
+
   .section {
     padding: 80px 24px;
   }
