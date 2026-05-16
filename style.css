@@ -175,7 +175,67 @@ body {
   }
 }
 
+.section {
+  padding: 120px 80px;
+}
+
+.section-label {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.section h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 58px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  max-width: 700px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.product-card {
+  background: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  padding: 36px;
+  transition: 0.25s ease;
+}
+
+.product-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-4px);
+}
+
+.product-card h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.product-card p {
+  color: #CFCFCF;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
 @media (max-width: 768px) {
+  .section {
+    padding: 80px 24px;
+  }
+
+  .section h2 {
+    font-size: 42px;
+  }
+
   .site-header {
     padding: 24px;
     flex-direction: column;
