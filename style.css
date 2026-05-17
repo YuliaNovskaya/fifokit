@@ -679,3 +679,7 @@ body {
   transform: translateY(-2px);
   border-color: var(--orange);
 }
+
+section {
+  scroll-margin-top: 120px;
+}
