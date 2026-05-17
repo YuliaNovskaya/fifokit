@@ -377,6 +377,31 @@ body {
   transform: translateY(-4px);
 }
 
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+}
+
+.faq-item {
+  background: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  padding: 36px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.faq-item h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.faq-item p {
+  color: #D0D0D0;
+  line-height: 1.7;
+}
+
 .final-cta {
   padding: 120px 80px;
   background: var(--orange);
