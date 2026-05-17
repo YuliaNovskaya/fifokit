@@ -628,3 +628,26 @@ body {
     font-size: 56px;
   }
 }
+
+.calculator-placeholder {
+  margin-top: 50px;
+  background: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  padding: 42px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.calculator-placeholder h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.calculator-placeholder p {
+  color: #D0D0D0;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 32px;
+}
