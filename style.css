@@ -118,6 +118,22 @@ body {
   gap: 20px;
 }
 
+.trust-strip {
+  margin-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.trust-strip div {
+  border: 1px solid #333;
+  background: rgba(255,255,255,0.04);
+  padding: 14px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #D8D8D8;
+}
+
 .primary-btn {
   background: var(--orange);
   color: var(--black);
