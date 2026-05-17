@@ -201,6 +201,7 @@ body {
 .section {
   padding: 140px 80px;
   position: relative;
+  border-top: 1px solid #1F1F1F;
 }
 
 .section-label {
@@ -406,6 +407,7 @@ body {
   padding: 120px 80px;
   background: var(--orange);
   color: var(--black);
+  border-top: 1px solid rgba(0,0,0,0.15);  
 }
 
 .final-cta-content {
