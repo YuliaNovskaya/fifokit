@@ -347,7 +347,7 @@ body {
   .step-card:hover {
   border-color: var(--orange);
   transform: translateY(-4px);
-}
+  }
 }
 
 .final-cta {
