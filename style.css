@@ -23,6 +23,7 @@ body {
   background: var(--black);
   color: var(--white);
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 .site-header {
@@ -212,6 +213,7 @@ body {
   border: 1px solid #2A2A2A;
   padding: 36px;
   transition: 0.25s ease;
+  cursor: pointer;
 }
 
 .product-card:hover {
@@ -246,6 +248,8 @@ body {
   background: #1D1D1D;
   border: 1px solid #2B2B2B;
   padding: 36px;
+  transition: 0.25s ease;
+  cursor: pointer;
 }
 
 .pathway-card h3 {
@@ -269,6 +273,10 @@ body {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.pathway-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-4px);
 }
 
 .wage-table {
@@ -315,6 +323,7 @@ body {
   background: #1D1D1D;
   border: 1px solid #2A2A2A;
   padding: 40px;
+  transition: 0.25s ease;
 }
 
 .step-card span {
@@ -335,6 +344,10 @@ body {
 .step-card p {
   color: #D0D0D0;
   line-height: 1.7;
+  .step-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-4px);
+}
 }
 
 .final-cta {
