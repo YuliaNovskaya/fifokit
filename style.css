@@ -651,3 +651,7 @@ body {
   max-width: 700px;
   margin: 0 auto 32px;
 }
+
+.header-scrolled {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
