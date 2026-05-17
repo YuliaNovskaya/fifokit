@@ -142,6 +142,7 @@ body {
   padding: 18px 30px;
   font-weight: 700;
   border-radius: 4px;
+  transition: 0.25s ease;  
 }
 
 .secondary-btn {
@@ -655,4 +656,14 @@ body {
 
 .header-scrolled {
   box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.secondary-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--orange);
 }
