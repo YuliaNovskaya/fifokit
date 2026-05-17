@@ -344,10 +344,15 @@ body {
 .step-card p {
   color: #D0D0D0;
   line-height: 1.7;
-  .step-card:hover {
+}
+
+.step-card {
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.step-card:hover {
   border-color: var(--orange);
   transform: translateY(-4px);
-  }
 }
 
 .final-cta {
