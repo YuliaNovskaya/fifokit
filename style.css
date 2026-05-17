@@ -702,3 +702,25 @@ section {
     padding: 32px 24px;
   }
 }
+
+::selection {
+  background: var(--orange);
+  color: var(--black);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.primary-btn,
+.secondary-btn,
+.product-card,
+.pathway-card,
+.step-card {
+  will-change: transform;
+}
