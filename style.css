@@ -540,6 +540,18 @@ body {
     width: 100%;
     text-align: center;
   }
+  .nav {
+    gap: 16px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+
+  .nav-cta {
+    width: 100%;
+    text-align: center;
+  }  
 }
 
 .fade-in {
