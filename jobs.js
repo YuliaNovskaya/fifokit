@@ -8,6 +8,10 @@ const jobs = [
     experience: "entry",
     tickets: ["Driver Licence", "Police Check"],
     applyUrl: "https://www.seek.com.au/",
+    salary: "Not listed",
+    source: "SEEK",
+    dateAdded: "2026-05-20",
+    status: "Active",
   },
 
   {
@@ -19,6 +23,10 @@ const jobs = [
     experience: "entry",
     tickets: ["White Card", "Driver Licence"],
     applyUrl: "https://www.seek.com.au/",
+    salary: "Not listed",
+    source: "SEEK",
+    dateAdded: "2026-05-20",
+    status: "Active",
   },
 
   {
@@ -30,6 +38,10 @@ const jobs = [
     experience: "entry",
     tickets: ["HR Licence", "National Police Check"],
     applyUrl: "https://www.seek.com.au/",
+    salary: "Not listed",
+    source: "SEEK",
+    dateAdded: "2026-05-20",
+    status: "Active",
   }
 ];
 
