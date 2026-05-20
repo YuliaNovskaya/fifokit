@@ -1010,3 +1010,116 @@ a {
   transform: translateY(-2px);
   opacity: 0.92;
 }
+
+.calculator-page {
+  padding-top: 140px;
+  min-height: 100vh;
+}
+
+.calculator-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.calculator-hero h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.calculator-hero p {
+  color: #CFCFCF;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.wage-calculator {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #121212;
+  border: 1px solid #2A2A2A;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.calculator-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.calculator-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.calculator-form input,
+.calculator-form select {
+  background: #1B1B1B;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 16px;
+  color: white;
+  font-size: 16px;
+}
+
+.calculator-form button {
+  grid-column: span 2;
+}
+
+.calculator-results {
+  margin-top: 50px;
+  display: grid;
+  gap: 20px;
+}
+
+.result-card {
+  background: #1B1B1B;
+  border: 1px solid #2D2D2D;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.result-card strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.result-card p {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.calculator-cta {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.calculator-cta p {
+  margin-bottom: 20px;
+  color: #D0D0D0;
+}
+
+@media (max-width: 768px) {
+
+  .calculator-form {
+    grid-template-columns: 1fr;
+  }
+
+  .calculator-form button {
+    grid-column: span 1;
+  }
+
+  .calculator-hero h1 {
+    font-size: 38px;
+  }
+
+  .wage-calculator {
+    padding: 24px;
+  }
+}
