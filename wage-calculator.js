@@ -129,3 +129,4 @@ form.addEventListener("submit", function (e) {
     </div>
   `;
 });
+form.dispatchEvent(new Event("submit"));
