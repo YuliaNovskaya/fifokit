@@ -392,8 +392,12 @@ function renderJobs(jobItems) {
 
   visibleJobs.forEach((job) => {
 
+    const today = new Date();
+
+    const addedDate = new Date(job.dateAdded + "T00:00:00");
+
     const daysSinceAdded =
-      (new Date() - new Date(job.dateAdded)) / (1000 * 60 * 60 * 24);
+      (today - addedDate) / (1000 * 60 * 60 * 24);
 
     const isNewJob = daysSinceAdded <= 7;
 
@@ -447,6 +451,8 @@ const rosterFilter = document.getElementById("jobRoster");
 
 function filterJobs() {
 
+  visibleJobsCount = 6;
+
   const searchValue = searchInput.value.toLowerCase();
 
   const categoryValue = categoryFilter.value;
@@ -470,9 +476,8 @@ function filterJobs() {
       job.experience === experienceValue;
 
     const matchesRoster =
-    rosterValue === "all" ||
-    job.roster === rosterValue ||
-    (rosterValue === "FIFO" && job.roster !== "");
+      rosterValue === "all" ||
+      job.roster === rosterValue;
 
     return (
       matchesSearch &&

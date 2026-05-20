@@ -993,3 +993,20 @@ a {
     font-size: 18px;
   }
 }
+
+.load-more-btn {
+  background: #F5A623;
+  color: #000000;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.load-more-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
