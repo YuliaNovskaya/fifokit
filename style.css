@@ -825,3 +825,17 @@ a {
     font-size: 40px;
   }
 }
+
+.jobs-note {
+  margin-bottom: 28px;
+  padding: 18px 22px;
+  border: 1px solid #2A2A2A;
+  border-radius: 18px;
+  background: #111111;
+}
+
+.jobs-note p {
+  margin: 0;
+  color: #C8C8C8;
+  line-height: 1.6;
+}
