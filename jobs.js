@@ -62,6 +62,12 @@ function renderJobs(jobItems) {
         ${job.experience === "entry" ? "Entry Level" : "Experienced"}
       </div>
 
+      <div class="job-top-row">
+        <span class="job-category-badge">
+            ${job.category.replace("-", " ")}
+        </span>
+      </div>
+
       <h3>${job.title}</h3>
 
       <div class="job-meta">

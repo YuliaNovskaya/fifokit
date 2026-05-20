@@ -843,3 +843,18 @@ a {
 .jobs-hero-actions {
   margin-top: 28px;
 }
+
+.job-top-row {
+  margin-bottom: 14px;
+}
+
+.job-category-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #1B1B1B;
+  border: 1px solid #2F2F2F;
+  color: #D8D8D8;
+  font-size: 13px;
+  text-transform: capitalize;
+}
