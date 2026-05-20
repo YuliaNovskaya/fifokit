@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIFO Wage Calculator | FIFOKIT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="calculator-page">
+    <section class="calculator-hero">
+      <h1>FIFO Wage Calculator</h1>
+      <p>Estimate your FIFO income, roster impact, take-home pay, and savings potential.</p>
+    </section>
+
+    <section class="wage-calculator">
+      <h2>Calculate your FIFO wage</h2>
+
+      <form class="calculator-form" id="wageCalculatorForm">
+        <label>
+                Annual salary
+                <input type="number" id="annualSalary" placeholder="120000" />
+        </label>
+
+        <label>
+            Roster type
+            <select id="rosterType">
+            <option value="14-7">2:1 roster</option>
+            <option value="8-6">8:6 roster</option>
+            <option value="14-14">2:2 roster</option>
+            <option value="28-14">4:2 roster</option>
+            </select>
+        </label>
+
+        <label>
+            Hours per shift
+            <input type="number" id="hoursPerShift" placeholder="12" />
+        </label>
+
+        <label>
+            Estimated tax %
+            <input type="number" id="taxRate" placeholder="30" />
+        </label>
+
+        <label>
+            Weekly home expenses
+            <input type="number" id="homeExpenses" placeholder="700" />
+        </label>
+
+        <label>
+            Weekly away expenses
+            <input type="number" id="awayExpenses" placeholder="150" />
+        </label>
+
+        <button type="submit" class="primary-btn">Calculate</button>
+        </form>
+
+        <div class="calculator-results" id="calculatorResults">
+        <h3>Your estimate</h3>
+        <p>Enter your details and calculate your FIFO estimate.</p>
+        </div>
+
+    </section>
+  </main>
+
+  <script src="wage-calculator.js"></script>
+</body>
+</html>
