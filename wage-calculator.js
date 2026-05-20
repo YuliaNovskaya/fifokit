@@ -7,6 +7,7 @@ const annualSalaryInput =
 
 fifoRole.addEventListener("change", () => {
   annualSalaryInput.value = fifoRole.value;
+  form.dispatchEvent(new Event("submit"));
 });
 
 form.addEventListener("submit", function (e) {
