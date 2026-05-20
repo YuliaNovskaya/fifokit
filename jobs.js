@@ -69,6 +69,9 @@ function renderJobs(jobItems) {
         <span><strong>Location:</strong> ${job.location}</span>
         <span><strong>Roster:</strong> ${job.roster}</span>
         <span><strong>Tickets:</strong> ${job.tickets.join(", ")}</span>
+        <span><strong>Salary:</strong> ${job.salary}</span>
+        <span><strong>Source:</strong> ${job.source}</span>
+        <span><strong>Added:</strong> ${job.dateAdded}</span>
       </div>
 
       <a href="${job.applyUrl}" target="_blank">
