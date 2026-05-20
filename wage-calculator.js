@@ -1,6 +1,14 @@
 const form = document.getElementById("wageCalculatorForm");
 const results = document.getElementById("calculatorResults");
 
+const fifoRole = document.getElementById("fifoRole");
+const annualSalaryInput =
+  document.getElementById("annualSalary");
+
+fifoRole.addEventListener("change", () => {
+  annualSalaryInput.value = fifoRole.value;
+});
+
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
