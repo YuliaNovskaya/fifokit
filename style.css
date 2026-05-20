@@ -901,3 +901,77 @@ a {
   font-weight: 700;
   text-decoration: none;
 }
+
+.role-page {
+  padding: 140px 80px;
+  min-height: 100vh;
+}
+
+.role-hero {
+  max-width: 900px;
+  margin-bottom: 60px;
+}
+
+.role-hero h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.role-hero p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #C8C8C8;
+  max-width: 760px;
+}
+
+.role-content {
+  max-width: 900px;
+}
+
+.role-content h2 {
+  font-size: 32px;
+  margin-top: 56px;
+  margin-bottom: 18px;
+}
+
+.role-content p {
+  line-height: 1.9;
+  color: #D0D0D0;
+  margin-bottom: 20px;
+}
+
+.role-content ul {
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+.role-content li {
+  margin-bottom: 14px;
+  line-height: 1.8;
+  color: #D0D0D0;
+}
+
+.role-content .primary-btn {
+  margin-top: 36px;
+}
+
+@media (max-width: 900px) {
+
+  .role-page {
+    padding: 120px 24px;
+  }
+
+  .role-hero h1 {
+    font-size: 40px;
+  }
+
+  .role-content h2 {
+    font-size: 28px;
+  }
+
+  .role-hero p {
+    font-size: 18px;
+  }
+}
