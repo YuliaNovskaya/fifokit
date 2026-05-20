@@ -1123,3 +1123,16 @@ a {
     padding: 24px;
   }
 }
+
+.calculator-note {
+  margin-top: 40px;
+  background: #171717;
+  border: 1px solid #2A2A2A;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.calculator-note p {
+  color: #CFCFCF;
+  line-height: 1.7;
+}
