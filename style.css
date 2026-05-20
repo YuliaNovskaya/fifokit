@@ -1074,6 +1074,7 @@ a {
 .calculator-results {
   margin-top: 50px;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
@@ -1098,6 +1099,7 @@ a {
 .calculator-cta {
   margin-top: 30px;
   text-align: center;
+  grid-column: span 2;
 }
 
 .calculator-cta p {
@@ -1121,6 +1123,13 @@ a {
 
   .wage-calculator {
     padding: 24px;
+  }
+  .calculator-results {
+    grid-template-columns: 1fr;
+  }
+
+  .calculator-cta {
+    grid-column: span 1;
   }
 }
 
