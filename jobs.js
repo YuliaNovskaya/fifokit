@@ -69,4 +69,48 @@ function renderJobs(jobItems) {
   });
 }
 
+const searchInput = document.getElementById("jobSearch");
+const categoryFilter = document.getElementById("jobCategory");
+const experienceFilter = document.getElementById("jobExperience");
+
+function filterJobs() {
+
+  const searchValue = searchInput.value.toLowerCase();
+
+  const categoryValue = categoryFilter.value;
+
+  const experienceValue = experienceFilter.value;
+
+  const filtered = jobs.filter((job) => {
+
+    const matchesSearch =
+      job.title.toLowerCase().includes(searchValue) ||
+      job.company.toLowerCase().includes(searchValue) ||
+      job.location.toLowerCase().includes(searchValue);
+
+    const matchesCategory =
+      categoryValue === "all" ||
+      job.category === categoryValue;
+
+    const matchesExperience =
+      experienceValue === "all" ||
+      job.experience === experienceValue;
+
+    return (
+      matchesSearch &&
+      matchesCategory &&
+      matchesExperience
+    );
+
+  });
+
+  renderJobs(filtered);
+}
+
+searchInput.addEventListener("input", filterJobs);
+
+categoryFilter.addEventListener("change", filterJobs);
+
+experienceFilter.addEventListener("change", filterJobs);
+
 renderJobs(jobs);
