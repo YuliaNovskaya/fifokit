@@ -54,6 +54,22 @@ form.addEventListener("submit", function (e) {
   const realHourlyRate =
     netIncome / totalHoursWorked;
 
+  const timeAwayPercentage =
+    ((daysAwayPerYear / 365) * 100).toFixed(1);
+
+    let rosterMessage = "";
+
+    if (timeAwayPercentage > 55) {
+    rosterMessage =
+        "High-income roster with significant time away from home.";
+    } else if (timeAwayPercentage > 45) {
+    rosterMessage =
+        "Balanced roster with strong earning potential.";
+    } else {
+    rosterMessage =
+        "Lifestyle-focused roster with more time at home.";
+    }
+
   results.innerHTML = `
     <h3>Your FIFO estimate</h3>
 
@@ -90,6 +106,16 @@ form.addEventListener("submit", function (e) {
     <div class="result-card">
       <strong>Real hourly rate:</strong>
       <p>$${realHourlyRate.toFixed(2)}</p>
+    </div>
+
+    <div class="result-card">
+        <strong>Time away from home:</strong>
+        <p>${timeAwayPercentage}% of the year</p>
+    </div>
+
+    <div class="result-card">
+        <strong>Roster insight:</strong>
+        <p>${rosterMessage}</p>
     </div>
 
     <div class="calculator-cta">
