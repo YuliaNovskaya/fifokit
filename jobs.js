@@ -12,6 +12,7 @@ const jobs = [
     source: "SEEK",
     dateAdded: "2026-05-20",
     status: "Active",
+    beginnerFriendly: true,
   },
 
   {
@@ -27,6 +28,7 @@ const jobs = [
     source: "SEEK",
     dateAdded: "2026-05-20",
     status: "Active",
+    beginnerFriendly: true,
   },
 
   {
@@ -42,6 +44,7 @@ const jobs = [
     source: "SEEK",
     dateAdded: "2026-05-20",
     status: "Active",
+    beginnerFriendly: true,
   }
 ];
 
