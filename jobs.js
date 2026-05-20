@@ -87,6 +87,7 @@ function renderJobs(jobItems) {
 const searchInput = document.getElementById("jobSearch");
 const categoryFilter = document.getElementById("jobCategory");
 const experienceFilter = document.getElementById("jobExperience");
+const rosterFilter = document.getElementById("jobRoster");
 
 function filterJobs() {
 
@@ -95,6 +96,7 @@ function filterJobs() {
   const categoryValue = categoryFilter.value;
 
   const experienceValue = experienceFilter.value;
+  const rosterValue = rosterFilter.value;
 
   const filtered = jobs.filter((job) => {
 
@@ -111,10 +113,16 @@ function filterJobs() {
       experienceValue === "all" ||
       job.experience === experienceValue;
 
+    const matchesRoster =
+    rosterValue === "all" ||
+    job.roster === rosterValue ||
+    (rosterValue === "FIFO" && job.roster !== "");
+
     return (
       matchesSearch &&
       matchesCategory &&
-      matchesExperience
+      matchesExperience &&
+      matchesRoster   
     );
 
   });
@@ -127,5 +135,6 @@ searchInput.addEventListener("input", filterJobs);
 categoryFilter.addEventListener("change", filterJobs);
 
 experienceFilter.addEventListener("change", filterJobs);
+rosterFilter.addEventListener("change", filterJobs);
 
 renderJobs(jobs);
