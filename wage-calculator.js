@@ -1,5 +1,7 @@
 const form = document.getElementById("wageCalculatorForm");
 const results = document.getElementById("calculatorResults");
+const pageTitle =
+  document.querySelector("title");
 
 const fifoRole = document.getElementById("fifoRole");
 const annualSalaryInput =
@@ -78,6 +80,9 @@ form.addEventListener("submit", function (e) {
     rosterMessage =
         "Lifestyle-focused roster with more time at home.";
     }
+
+  pageTitle.textContent =
+  `FIFO Wage Calculator - ${fifoRole.options[fifoRole.selectedIndex].text}`;
 
   results.innerHTML = `
     <h3>Your FIFO estimate</h3>
