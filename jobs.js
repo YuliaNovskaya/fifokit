@@ -377,12 +377,20 @@ const jobs = [
 ];
 
 const jobsList = document.getElementById("jobsList");
+const loadMoreButton = document.getElementById("loadMoreJobs");
+
+let visibleJobsCount = 6;
+let currentFilteredJobs = jobs;
 
 function renderJobs(jobItems) {
 
   jobsList.innerHTML = "";
 
-  jobItems.forEach((job) => {
+  currentFilteredJobs = jobItems;
+
+  const visibleJobs = jobItems.slice(0, visibleJobsCount);
+
+  visibleJobs.forEach((job) => {
 
     const card = document.createElement("div");
 
@@ -390,7 +398,7 @@ function renderJobs(jobItems) {
 
     card.innerHTML = `
       <div class="entry-tag">
-        ${job.experience === "entry" ? "Entry Level" : "Experienced"}
+        ${job.beginnerFriendly ? "Beginner Friendly" : "Experienced"}
       </div>
 
       <div class="job-top-row">
@@ -419,6 +427,8 @@ function renderJobs(jobItems) {
     jobsList.appendChild(card);
 
   });
+  loadMoreButton.style.display =
+  visibleJobsCount >= jobItems.length ? "none" : "inline-block";
 }
 
 const searchInput = document.getElementById("jobSearch");
@@ -473,5 +483,9 @@ categoryFilter.addEventListener("change", filterJobs);
 
 experienceFilter.addEventListener("change", filterJobs);
 rosterFilter.addEventListener("change", filterJobs);
+loadMoreButton.addEventListener("click", () => {
+  visibleJobsCount += 6;
+  renderJobs(currentFilteredJobs);
+});
 
 renderJobs(jobs);
