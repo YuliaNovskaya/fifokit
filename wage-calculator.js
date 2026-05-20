@@ -138,4 +138,15 @@ form.addEventListener("submit", function (e) {
     </div>
   `;
 });
+const calculatorInputs = form.querySelectorAll("input, select");
+
+calculatorInputs.forEach((input) => {
+  input.addEventListener("input", () => {
+    form.dispatchEvent(new Event("submit"));
+  });
+
+  input.addEventListener("change", () => {
+    form.dispatchEvent(new Event("submit"));
+  });
+});
 form.dispatchEvent(new Event("submit"));
