@@ -874,3 +874,20 @@ a {
   justify-content: center;
   margin-top: 40px;
 }
+
+.job-tags-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.new-job-tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #F5A623;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}

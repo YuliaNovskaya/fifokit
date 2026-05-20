@@ -392,13 +392,22 @@ function renderJobs(jobItems) {
 
   visibleJobs.forEach((job) => {
 
+    const daysSinceAdded =
+      (new Date() - new Date(job.dateAdded)) / (1000 * 60 * 60 * 24);
+
+    const isNewJob = daysSinceAdded <= 7;
+
     const card = document.createElement("div");
 
     card.className = "job-card";
 
     card.innerHTML = `
-      <div class="entry-tag">
-        ${job.beginnerFriendly ? "Beginner Friendly" : "Experienced"}
+      <div class="job-tags-row">
+        <span class="entry-tag">
+          ${job.beginnerFriendly ? "Beginner Friendly" : "Experienced"}
+        </span>
+
+        ${isNewJob ? `<span class="new-job-tag">NEW</span>` : ""}
       </div>
 
       <div class="job-top-row">
