@@ -796,12 +796,12 @@ a {
 
 .entry-tag {
   display: inline-block;
+  width: fit-content;
   padding: 6px 12px;
   border-radius: 999px;
   background: #1E3A2F;
   color: #7DFFB0;
   font-size: 14px;
-  margin-bottom: 18px;
 }
 
 .job-card a {
@@ -890,6 +890,7 @@ a {
   color: #000000;
   font-size: 14px;
   font-weight: 700;
+  width: fit-content;
 }
 
 .role-links {
