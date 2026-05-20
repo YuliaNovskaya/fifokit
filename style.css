@@ -868,3 +868,9 @@ a {
   font-size: 13px;
   text-transform: capitalize;
 }
+
+.jobs-load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
