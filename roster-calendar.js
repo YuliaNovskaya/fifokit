@@ -52,13 +52,31 @@ for (let i = 1; i < startingDay; i++) {
 }
 
 for (let day = 1; day <= totalDays; day++) {
+  const rosterType =
+    document.getElementById("rosterType").value;
+
+  const [workDays, offDays] =
+    rosterType.split("-").map(Number);
+
+  const cycleLength =
+    workDays + offDays;
+
+  const dayIndex =
+    day - 1;
+
+  const cycleDay =
+    dayIndex % cycleLength;
+
+  const isWorkDay =
+    cycleDay < workDays;
 
   const isToday =
     day === today.getDate();
 
   calendarDays.innerHTML += `
-    <div class="calendar-day ${isToday ? "today" : ""}">
+    <div class="calendar-day ${isToday ? "today" : ""} ${isWorkDay ? "work-day" : "home-day"}">
       <span>${day}</span>
+      <small>${isWorkDay ? "Work" : "Home"}</small>
     </div>
   `;
 }

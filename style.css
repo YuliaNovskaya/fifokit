@@ -1225,3 +1225,24 @@ a {
     font-size: 14px;
   }
 }
+
+.calendar-day {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.calendar-day small {
+  color: #CFCFCF;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.calendar-day.work-day {
+  background: #2A1A1A;
+  border-color: #5A2A2A;
+}
+
+.calendar-day.home-day {
+  background: #1A241A;
+  border-color: #2D5A2D;
+}
