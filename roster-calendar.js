@@ -1,10 +1,11 @@
 const rosterCalendar = document.getElementById("rosterCalendar");
+let currentDate = new Date();
 
 function renderRosterCalendar() {
-  const today = new Date();
+    const today = new Date();
 
-  const year = today.getFullYear();
-  const month = today.getMonth();
+    const year = currentDate.getFullYear();
+    const month = currentDate.getMonth();
 
   const monthName = today.toLocaleString("en-AU", {
     month: "long",
@@ -12,7 +13,17 @@ function renderRosterCalendar() {
   });
 
   rosterCalendar.innerHTML = `
+    <div class="calendar-header">
+    <button id="prevMonth" class="calendar-nav-btn">
+        ←
+    </button>
+
     <h3>${monthName}</h3>
+
+    <button id="nextMonth" class="calendar-nav-btn">
+        →
+    </button>
+    </div>
 
     <div class="calendar-legend">
     <span class="legend-item work-legend">Work days</span>
@@ -89,7 +100,21 @@ function renderRosterCalendar() {
 }
 
 renderRosterCalendar();
+renderRosterCalendar();
 
 document.getElementById("rosterType").addEventListener("change", () => {
   renderRosterCalendar();
+});
+
+document.addEventListener("click", (e) => {
+
+  if (e.target.id === "prevMonth") {
+    currentDate.setMonth(currentDate.getMonth() - 1);
+    renderRosterCalendar();
+  }
+
+  if (e.target.id === "nextMonth") {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    renderRosterCalendar();
+  }
 });

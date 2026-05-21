@@ -1265,3 +1265,22 @@ a {
 .home-legend {
   color: #B8F2B8;
 }
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.calendar-nav-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #1E1E1E;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
