@@ -1,6 +1,11 @@
 const rosterCalendar = document.getElementById("rosterCalendar");
 let currentDate = new Date();
+const rosterStartDateInput =
+  document.getElementById("rosterStartDate");
 
+rosterStartDateInput.value =
+  new Date().toISOString().split("T")[0];
+  
 function renderRosterCalendar() {
     const today = new Date();
 
