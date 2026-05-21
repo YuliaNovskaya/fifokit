@@ -25,3 +25,40 @@ rosterCalendar.innerHTML = `
 
   <div class="calendar-grid" id="calendarDays"></div>
 `;
+
+const calendarDays =
+  document.getElementById("calendarDays");
+
+const firstDay =
+  new Date(year, month, 1);
+
+const lastDay =
+  new Date(year, month + 1, 0);
+
+const totalDays =
+  lastDay.getDate();
+
+let startingDay =
+  firstDay.getDay();
+
+if (startingDay === 0) {
+  startingDay = 7;
+}
+
+for (let i = 1; i < startingDay; i++) {
+  calendarDays.innerHTML += `
+    <div class="calendar-day empty"></div>
+  `;
+}
+
+for (let day = 1; day <= totalDays; day++) {
+
+  const isToday =
+    day === today.getDate();
+
+  calendarDays.innerHTML += `
+    <div class="calendar-day ${isToday ? "today" : ""}">
+      <span>${day}</span>
+    </div>
+  `;
+}
