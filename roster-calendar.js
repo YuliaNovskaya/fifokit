@@ -1,0 +1,27 @@
+const rosterCalendar = document.getElementById("rosterCalendar");
+
+const today = new Date();
+
+const year = today.getFullYear();
+const month = today.getMonth();
+
+const monthName = today.toLocaleString("en-AU", {
+  month: "long",
+  year: "numeric",
+});
+
+rosterCalendar.innerHTML = `
+  <h3>${monthName}</h3>
+
+  <div class="calendar-grid calendar-weekdays">
+    <div>Mon</div>
+    <div>Tue</div>
+    <div>Wed</div>
+    <div>Thu</div>
+    <div>Fri</div>
+    <div>Sat</div>
+    <div>Sun</div>
+  </div>
+
+  <div class="calendar-grid" id="calendarDays"></div>
+`;
