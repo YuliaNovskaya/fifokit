@@ -1284,3 +1284,8 @@ a {
   font-size: 18px;
   font-weight: 700;
 }
+.calculator-form small {
+  color: #9F9F9F;
+  font-size: 13px;
+  line-height: 1.5;
+}
