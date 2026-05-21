@@ -78,11 +78,22 @@ function renderRosterCalendar() {
     workDays + offDays;
 
   for (let day = 1; day <= totalDays; day++) {
+    const rosterStartDateInput =
+    document.getElementById("rosterStartDate").value;
+
+    const rosterStartDate =
+    rosterStartDateInput
+        ? new Date(rosterStartDateInput)
+        : new Date(year, month, 1);
+
+    const currentDayDate =
+    new Date(year, month, day);
+
     const dayIndex =
-      day - 1;
+    Math.floor((currentDayDate - rosterStartDate) / (1000 * 60 * 60 * 24));
 
     const cycleDay =
-      dayIndex % cycleLength;
+        ((dayIndex % cycleLength) + cycleLength) % cycleLength;
 
     const isWorkDay =
       cycleDay < workDays;
@@ -103,6 +114,10 @@ renderRosterCalendar();
 renderRosterCalendar();
 
 document.getElementById("rosterType").addEventListener("change", () => {
+  renderRosterCalendar();
+});
+
+document.getElementById("rosterStartDate").addEventListener("change", () => {
   renderRosterCalendar();
 });
 
