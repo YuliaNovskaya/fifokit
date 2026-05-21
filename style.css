@@ -1246,3 +1246,22 @@ a {
   background: #1A241A;
   border-color: #2D5A2D;
 }
+
+.calendar-legend {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.legend-item {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.work-legend {
+  color: #F2B8B8;
+}
+
+.home-legend {
+  color: #B8F2B8;
+}
