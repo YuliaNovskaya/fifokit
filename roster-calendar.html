@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIFO Roster Calendar | FIFOKIT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="calculator-page">
+    <section class="calculator-hero">
+      <h1>FIFO Roster Calendar</h1>
+      <p>
+        Plan your work days and home days across common FIFO roster patterns.
+      </p>
+    </section>
+
+    <section class="wage-calculator">
+
+      <form class="calculator-form">
+
+        <label>
+          Roster start date
+          <input type="date" id="rosterStartDate" />
+          <small>Select the first day of your work swing.</small>
+        </label>
+
+        <label>
+          Roster type
+          <select id="rosterType">
+            <option value="14-7">2:1 roster</option>
+            <option value="8-6">8:6 roster</option>
+            <option value="14-14">2:2 roster</option>
+            <option value="28-14">4:2 roster</option>
+          </select>
+        </label>
+
+      </form>
+
+      <section class="roster-calendar-section">
+        <h2>FIFO Roster Calendar</h2>
+
+        <p>
+          View your work days and home days across the month.
+        </p>
+
+        <div class="roster-calendar" id="rosterCalendar"></div>
+      </section>
+
+    </section>
+  </main>
+
+  <script src="roster-calendar.js"></script>
+</body>
+</html>
