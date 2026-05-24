@@ -1326,3 +1326,9 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.tool-switcher {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
