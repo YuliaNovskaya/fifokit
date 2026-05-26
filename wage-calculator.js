@@ -106,7 +106,7 @@ form.addEventListener("submit", function (e) {
     <h3>Your FIFO estimate</h3>
 
     <div class="result-card">
-      <strong>Estimated gross annual income:</strong><strong>Gross annual income:</strong>
+      <strong>Gross annual income:</strong>
       <p>$${annualSalary.toLocaleString()}</p>
     </div>
 
