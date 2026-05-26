@@ -1,18 +1,18 @@
 const rosterCalendar = document.getElementById("rosterCalendar");
 let currentDate = new Date();
 
-const waPublicHolidays2026 = [
-  "2026-01-01",
-  "2026-01-26",
-  "2026-03-02",
-  "2026-04-03",
-  "2026-04-06",
-  "2026-04-25",
-  "2026-06-01",
-  "2026-09-28",
-  "2026-12-25",
-  "2026-12-26",
-];
+const waPublicHolidays2026 = {
+  "2026-01-01": "New Year's Day",
+  "2026-01-26": "Australia Day",
+  "2026-03-02": "Labour Day",
+  "2026-04-03": "Good Friday",
+  "2026-04-06": "Easter Monday",
+  "2026-04-25": "ANZAC Day",
+  "2026-06-01": "WA Day",
+  "2026-09-28": "King's Birthday",
+  "2026-12-25": "Christmas Day",
+  "2026-12-26": "Boxing Day",
+};
 
 const rosterStartDateInput =
   document.getElementById("rosterStartDate");
