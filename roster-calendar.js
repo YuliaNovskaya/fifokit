@@ -1,5 +1,19 @@
 const rosterCalendar = document.getElementById("rosterCalendar");
 let currentDate = new Date();
+
+const waPublicHolidays2026 = [
+  "2026-01-01",
+  "2026-01-26",
+  "2026-03-02",
+  "2026-04-03",
+  "2026-04-06",
+  "2026-04-25",
+  "2026-06-01",
+  "2026-09-28",
+  "2026-12-25",
+  "2026-12-26",
+];
+
 const rosterStartDateInput =
   document.getElementById("rosterStartDate");
 
