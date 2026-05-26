@@ -1,3 +1,24 @@
+function calculateAustralianTax(income) {
+
+  if (income <= 18200) {
+    return 0;
+  }
+
+  if (income <= 45000) {
+    return (income - 18200) * 0.16;
+  }
+
+  if (income <= 135000) {
+    return 4288 + (income - 45000) * 0.30;
+  }
+
+  if (income <= 190000) {
+    return 31288 + (income - 135000) * 0.37;
+  }
+
+  return 51638 + (income - 190000) * 0.45;
+}
+
 const form = document.getElementById("wageCalculatorForm");
 const results = document.getElementById("calculatorResults");
 const pageTitle =
