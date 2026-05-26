@@ -491,7 +491,7 @@ body {
   padding: 80px 24px;
   }
 
-.final-cta h2 {
+  .final-cta h2 {
   font-size: 44px;
   }
   .wage-row {
@@ -552,6 +552,11 @@ body {
     width: 100%;
     text-align: center;
   }  
+
+  .calculator-page .primary-btn,
+  .toolkit-page .primary-btn {
+  margin-left: 24px;
+  }
 }
 
 .fade-in {
@@ -1012,7 +1017,7 @@ a {
 }
 
 .calculator-page {
-  padding-top: 140px;
+  padding: 140px 80px;
   min-height: 100vh;
 }
 
@@ -1131,6 +1136,11 @@ a {
   .calculator-cta {
     grid-column: span 1;
   }
+  .calculator-page,
+  .toolkit-page {
+    padding: 120px 24px;
+  }
+
 }
 
 .calculator-note {
@@ -1291,7 +1301,7 @@ a {
 }
 
 .toolkit-page {
-  padding-top: 140px;
+  padding: 140px 80px;
   min-height: 100vh;
 }
 
@@ -1342,4 +1352,8 @@ a {
 
 .back-link:hover {
   color: white;
+}
+.calculator-page .primary-btn,
+.toolkit-page .primary-btn {
+  margin-left: 80px;
 }
