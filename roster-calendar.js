@@ -12,7 +12,7 @@ function renderRosterCalendar() {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
 
-  const monthName = today.toLocaleString("en-AU", {
+  const monthName = currentDate.toLocaleString("en-AU", {
     month: "long",
     year: "numeric",
   });
