@@ -1373,3 +1373,15 @@ a {
 .holiday-legend {
   color: #F2D16B;
 }
+
+.calendar-day.school-holiday {
+  box-shadow: 0 0 0 1px rgba(93, 156, 236, 0.35);
+}
+
+.calendar-day.school-holiday small:last-child {
+  color: #9CC7FF;
+}
+
+.school-legend {
+  color: #9CC7FF;
+}

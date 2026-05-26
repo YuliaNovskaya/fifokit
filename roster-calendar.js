@@ -29,6 +29,40 @@ const waPublicHolidays = {
   "2027-12-28": "Boxing Day Holiday",
 };
 
+const waSchoolHolidays2026 = [
+  {
+    start: "2026-01-01",
+    end: "2026-01-31",
+    label: "Summer Holidays",
+  },
+  {
+    start: "2026-04-03",
+    end: "2026-04-19",
+    label: "Term 1 Holidays",
+  },
+  {
+    start: "2026-07-04",
+    end: "2026-07-19",
+    label: "Term 2 Holidays",
+  },
+  {
+    start: "2026-09-26",
+    end: "2026-10-11",
+    label: "Term 3 Holidays",
+  },
+  {
+    start: "2026-12-19",
+    end: "2027-01-31",
+    label: "Summer Holidays",
+  },
+];
+
+function getSchoolHolidayName(dateKey) {
+  return waSchoolHolidays2026.find((holiday) => {
+    return dateKey >= holiday.start && dateKey <= holiday.end;
+  })?.label;
+}
+
 const rosterStartDateInput =
   document.getElementById("rosterStartDate");
 
@@ -63,6 +97,7 @@ function renderRosterCalendar() {
     <span class="legend-item work-legend">Work days</span>
     <span class="legend-item home-legend">Home days</span>
     <span class="legend-item holiday-legend">WA public holidays</span>
+    <span class="legend-item school-legend">WA school holidays</span>
     </div>
 
     <div class="calendar-grid calendar-weekdays">
@@ -145,11 +180,18 @@ function renderRosterCalendar() {
     const isPublicHoliday =
       Boolean(publicHolidayName);
 
+    const schoolHolidayName =
+      getSchoolHolidayName(dateKey);
+
+    const isSchoolHoliday =
+      Boolean(schoolHolidayName);
+
     calendarDays.innerHTML += `
-      <div class="calendar-day ${isToday ? "today" : ""} ${isWorkDay ? "work-day" : "home-day"} ${isPublicHoliday ? "public-holiday" : ""}">
+      <div class="calendar-day ${isToday ? "today" : ""} ${isWorkDay ? "work-day" : "home-day"} ${isPublicHoliday ? "public-holiday" : ""} ${isSchoolHoliday ? "school-holiday" : ""}">
         <span>${day}</span>
         <small>${isWorkDay ? "Work" : "Home"}</small>
         ${isPublicHoliday ? `<small>${publicHolidayName}</small>` : ""}
+        ${isSchoolHoliday ? `<small>${schoolHolidayName}</small>` : ""}
       </div>
     `;
   }
