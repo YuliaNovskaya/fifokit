@@ -111,6 +111,11 @@ form.addEventListener("submit", function (e) {
     </div>
 
     <div class="result-card">
+      <strong>Estimated tax:</strong>
+      <p>$${Math.round(estimatedTax).toLocaleString()}</p>
+    </div>
+
+    <div class="result-card">
       <strong>Estimated net income:</strong>
       <p>$${Math.round(netIncome).toLocaleString()}</p>
     </div>
