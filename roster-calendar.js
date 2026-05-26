@@ -1,7 +1,7 @@
 const rosterCalendar = document.getElementById("rosterCalendar");
 let currentDate = new Date();
 
-const waPublicHolidays2026 = {
+const waPublicHolidays = {
   "2026-01-01": "New Year's Day",
   "2026-01-26": "Australia Day",
   "2026-03-02": "Labour Day",
@@ -12,6 +12,21 @@ const waPublicHolidays2026 = {
   "2026-09-28": "King's Birthday",
   "2026-12-25": "Christmas Day",
   "2026-12-26": "Boxing Day",
+
+  "2027-01-01": "New Year's Day",
+  "2027-01-26": "Australia Day",
+  "2027-03-01": "Labour Day",
+  "2027-03-26": "Good Friday",
+  "2027-03-28": "Easter Sunday",
+  "2027-03-29": "Easter Monday",
+  "2027-04-25": "ANZAC Day",
+  "2027-04-26": "ANZAC Day Holiday",
+  "2027-06-07": "WA Day",
+  "2027-09-27": "King's Birthday",
+  "2027-12-25": "Christmas Day",
+  "2027-12-26": "Boxing Day",
+  "2027-12-27": "Christmas Day Holiday",
+  "2027-12-28": "Boxing Day Holiday",
 };
 
 const rosterStartDateInput =
@@ -125,7 +140,7 @@ function renderRosterCalendar() {
       `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 
     const publicHolidayName =
-      waPublicHolidays2026[dateKey];
+      waPublicHolidays[dateKey];
 
     const isPublicHoliday =
       Boolean(publicHolidayName);
