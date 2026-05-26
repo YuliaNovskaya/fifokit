@@ -124,14 +124,17 @@ function renderRosterCalendar() {
     const dateKey =
       `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 
+    const publicHolidayName =
+      waPublicHolidays2026[dateKey];
+
     const isPublicHoliday =
-      waPublicHolidays2026.includes(dateKey);
+      Boolean(publicHolidayName);
 
     calendarDays.innerHTML += `
       <div class="calendar-day ${isToday ? "today" : ""} ${isWorkDay ? "work-day" : "home-day"} ${isPublicHoliday ? "public-holiday" : ""}">
         <span>${day}</span>
         <small>${isWorkDay ? "Work" : "Home"}</small>
-        ${isPublicHoliday ? "<small>WA Public Holiday</small>" : ""}
+        ${isPublicHoliday ? `<small>${publicHolidayName}</small>` : ""}
       </div>
     `;
   }
