@@ -24,9 +24,6 @@ form.addEventListener("submit", function (e) {
   const hoursPerShift =
     Number(document.getElementById("hoursPerShift").value) || 0;
 
-  const taxRate =
-    Number(document.getElementById("taxRate").value) || 0;
-
   const homeExpenses =
     Number(document.getElementById("homeExpenses").value) || 0;
 
@@ -45,7 +42,7 @@ form.addEventListener("submit", function (e) {
   const daysHomePerYear = Math.round(offDays * cyclesPerYear);
 
   const estimatedTax =
-    annualSalary * (taxRate / 100);
+  calculateAustralianTax(annualSalary);
 
   const netIncome =
     annualSalary - estimatedTax;
