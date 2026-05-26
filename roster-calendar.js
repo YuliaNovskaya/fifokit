@@ -47,6 +47,7 @@ function renderRosterCalendar() {
     <div class="calendar-legend">
     <span class="legend-item work-legend">Work days</span>
     <span class="legend-item home-legend">Home days</span>
+    <span class="legend-item holiday-legend">WA public holidays</span>
     </div>
 
     <div class="calendar-grid calendar-weekdays">

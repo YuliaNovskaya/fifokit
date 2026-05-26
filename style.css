@@ -1369,3 +1369,7 @@ a {
 .calendar-day.public-holiday small:last-child {
   color: #F2D16B;
 }
+
+.holiday-legend {
+  color: #F2D16B;
+}
