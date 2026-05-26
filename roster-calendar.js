@@ -88,8 +88,8 @@ function renderRosterCalendar() {
 
     const rosterStartDate =
     rosterStartDateInput
-        ? new Date(rosterStartDateInput)
-        : new Date(year, month, 1);
+      ? new Date(rosterStartDateInput + "T00:00:00")
+      : new Date(year, month, 1);
 
     const currentDayDate =
     new Date(year, month, day);
