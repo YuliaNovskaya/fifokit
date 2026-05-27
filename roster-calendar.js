@@ -322,5 +322,32 @@ if (savedEmail) {
 }
 
 function prepareTwelveMonthPrintCalendar() {
-  localStorage.setItem("printMode", "twelveMonthRoster");
+  const printCalendar =
+    document.getElementById("printCalendar");
+
+  printCalendar.innerHTML = "";
+
+  const startDateValue =
+    document.getElementById("rosterStartDate").value;
+
+  const printStartDate =
+    startDateValue
+      ? new Date(startDateValue + "T00:00:00")
+      : new Date();
+
+  for (let i = 0; i < 12; i++) {
+    const printMonth =
+      new Date(printStartDate.getFullYear(), printStartDate.getMonth() + i, 1);
+
+    printCalendar.innerHTML += `
+      <section class="print-month">
+        <h2>
+          ${printMonth.toLocaleString("en-AU", {
+            month: "long",
+            year: "numeric",
+          })}
+        </h2>
+      </section>
+    `;
+  }
 }
