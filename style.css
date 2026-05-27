@@ -1225,17 +1225,27 @@ a {
 
 @media (max-width: 768px) {
 
-  .calendar-grid {
-    gap: 6px;
+.calendar-grid {
+  gap: 4px;
   }
 
-  .calendar-day {
-    min-height: 70px;
-    padding: 8px;
+.calendar-day {
+  min-height: 54px;
+  padding: 4px;
+  border-radius: 8px;
   }
 
-  .calendar-day span {
-    font-size: 14px;
+.calendar-day span {
+  font-size: 12px;
+  }
+
+.calendar-day small {
+  font-size: 9px;
+  line-height: 1.2;
+  }
+
+.roster-calendar {
+  padding: 14px;
   }
 }
 
