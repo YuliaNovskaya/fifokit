@@ -365,3 +365,42 @@ function prepareTwelveMonthPrintCalendar() {
     renderPrintMonth(printMonth, `printDays-${i}`);
   }
 }
+
+function renderPrintMonth(monthDate, containerId) {
+  const container =
+    document.getElementById(containerId);
+
+  const year =
+    monthDate.getFullYear();
+
+  const month =
+    monthDate.getMonth();
+
+  const firstDay =
+    new Date(year, month, 1);
+
+  const lastDay =
+    new Date(year, month + 1, 0);
+
+  const totalDays =
+    lastDay.getDate();
+
+  let startingDay =
+    firstDay.getDay();
+
+  if (startingDay === 0) {
+    startingDay = 7;
+  }
+
+  for (let i = 1; i < startingDay; i++) {
+    container.innerHTML += `<div class="print-day empty"></div>`;
+  }
+
+  for (let day = 1; day <= totalDays; day++) {
+    container.innerHTML += `
+      <div class="print-day">
+        <strong>${day}</strong>
+      </div>
+    `;
+  }
+}
