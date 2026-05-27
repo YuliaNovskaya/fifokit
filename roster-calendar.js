@@ -220,3 +220,29 @@ document.addEventListener("click", (e) => {
     renderRosterCalendar();
   }
 });
+
+const saveRosterButton =
+  document.getElementById("saveRoster");
+
+const clearRosterButton =
+  document.getElementById("clearRoster");
+
+saveRosterButton.addEventListener("click", () => {
+  const rosterStartDate =
+    document.getElementById("rosterStartDate").value;
+
+  const rosterType =
+    document.getElementById("rosterType").value;
+
+  localStorage.setItem("fifoRosterStartDate", rosterStartDate);
+  localStorage.setItem("fifoRosterType", rosterType);
+
+  alert("Roster saved on this device.");
+});
+
+clearRosterButton.addEventListener("click", () => {
+  localStorage.removeItem("fifoRosterStartDate");
+  localStorage.removeItem("fifoRosterType");
+
+  alert("Saved roster cleared.");
+});
