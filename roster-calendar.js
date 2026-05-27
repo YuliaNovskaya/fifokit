@@ -263,3 +263,32 @@ clearRosterButton.addEventListener("click", () => {
 
   alert("Saved roster cleared.");
 });
+
+const unlockExportButton =
+  document.getElementById("unlockExport");
+
+const calendarEmailInput =
+  document.getElementById("calendarEmail");
+
+const printCalendarButton =
+  document.getElementById("printCalendar");
+
+unlockExportButton.addEventListener("click", () => {
+  const email =
+    calendarEmailInput.value.trim();
+
+  if (!email.includes("@")) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  localStorage.setItem("fifoCalendarEmail", email);
+
+  printCalendarButton.classList.remove("hidden");
+
+  alert("Export unlocked.");
+});
+
+printCalendarButton.addEventListener("click", () => {
+  window.print();
+});
