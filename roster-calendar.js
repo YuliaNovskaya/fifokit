@@ -57,6 +57,9 @@ const waSchoolHolidays2026 = [
   },
 ];
 
+const MAKE_WEBHOOK_URL =
+  "https://hook.us2.make.com/nanx0ewy92bjdwlvfbm01mge1zrz8i5w";
+
 function getSchoolHolidayName(dateKey) {
   return waSchoolHolidays2026.find((holiday) => {
     return dateKey >= holiday.start && dateKey <= holiday.end;
@@ -304,6 +307,8 @@ confirmEmailDownloadButton.addEventListener("click", () => {
   localStorage.setItem("fifoCalendarEmail", email);
   localStorage.setItem("pdfEmailCaptured", "true");
 
+  sendCalendarLeadToAirtable(email);
+
   emailModal.classList.add("hidden");
 
   prepareTwelveMonthPrintCalendar();
@@ -444,4 +449,27 @@ function renderPrintMonth(monthDate, containerId) {
       </div>
     `;
   }
+}
+
+function sendCalendarLeadToAirtable(email) {
+  const rosterType =
+    document.getElementById("rosterType").value;
+
+  const rosterStartDate =
+    document.getElementById("rosterStartDate").value;
+
+  fetch(MAKE_WEBHOOK_URL, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email: email,
+      rosterType: rosterType,
+      rosterStartDate: rosterStartDate,
+      source: "Roster PDF Export",
+    }),
+  }).catch((error) => {
+    console.error("Lead capture failed:", error);
+  });
 }
