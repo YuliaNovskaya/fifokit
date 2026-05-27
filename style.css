@@ -146,12 +146,14 @@ body {
 }
 
 .secondary-btn {
+  background: transparent;
   border: 1px solid #444;
-  color: var(--white);
+  color: #D0D0D0;
   text-decoration: none;
   padding: 18px 30px;
   font-weight: 700;
   border-radius: 4px;
+  transition: 0.2s ease;
 }
 
 .hero-card {
