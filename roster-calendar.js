@@ -254,5 +254,12 @@ clearRosterButton.addEventListener("click", () => {
   localStorage.removeItem("fifoRosterStartDate");
   localStorage.removeItem("fifoRosterType");
 
+  rosterStartDateInput.value =
+    new Date().toISOString().split("T")[0];
+
+  document.getElementById("rosterType").value = "14-7";
+
+  renderRosterCalendar();
+
   alert("Saved roster cleared.");
 });
