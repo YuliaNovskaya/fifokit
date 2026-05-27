@@ -1528,4 +1528,28 @@ a {
     color: black;
     margin-bottom: 20px;
   }
+
+  .print-weekdays,
+  .print-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+  }
+
+  .print-weekdays {
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .print-day {
+    min-height: 80px;
+    border: 1px solid #999;
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .print-day.empty {
+    border: none;
+  }
 }
