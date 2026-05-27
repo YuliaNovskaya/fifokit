@@ -264,16 +264,34 @@ clearRosterButton.addEventListener("click", () => {
   alert("Saved roster cleared.");
 });
 
-const unlockExportButton =
-  document.getElementById("unlockExport");
+const downloadRosterPdfButton =
+  document.getElementById("downloadRosterPdf");
+
+const emailModal =
+  document.getElementById("emailModal");
 
 const calendarEmailInput =
   document.getElementById("calendarEmail");
 
-const printCalendarButton =
-  document.getElementById("printCalendar");
+const confirmEmailDownloadButton =
+  document.getElementById("confirmEmailDownload");
 
-unlockExportButton.addEventListener("click", () => {
+const closeEmailModalButton =
+  document.getElementById("closeEmailModal");
+
+downloadRosterPdfButton.addEventListener("click", () => {
+  const emailCaptured =
+    localStorage.getItem("pdfEmailCaptured");
+
+  if (emailCaptured) {
+    window.print();
+    return;
+  }
+
+  emailModal.classList.remove("hidden");
+});
+
+confirmEmailDownloadButton.addEventListener("click", () => {
   const email =
     calendarEmailInput.value.trim();
 
@@ -283,14 +301,15 @@ unlockExportButton.addEventListener("click", () => {
   }
 
   localStorage.setItem("fifoCalendarEmail", email);
+  localStorage.setItem("pdfEmailCaptured", "true");
 
-  printCalendarButton.classList.remove("hidden");
+  emailModal.classList.add("hidden");
 
-  alert("Export unlocked.");
+  window.print();
 });
 
-printCalendarButton.addEventListener("click", () => {
-  window.print();
+closeEmailModalButton.addEventListener("click", () => {
+  emailModal.classList.add("hidden");
 });
 
 const savedEmail =
@@ -298,5 +317,4 @@ const savedEmail =
 
 if (savedEmail) {
   calendarEmailInput.value = savedEmail;
-  printCalendarButton.classList.remove("hidden");
 }
