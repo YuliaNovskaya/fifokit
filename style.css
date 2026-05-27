@@ -1498,3 +1498,34 @@ a {
   gap: 16px;
   flex-wrap: wrap;
 }
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printCalendar,
+  #printCalendar * {
+    visibility: visible;
+  }
+
+  #printCalendar {
+    display: block !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 24px;
+    background: white;
+    color: black;
+  }
+
+  .print-month {
+    page-break-after: always;
+  }
+
+  .print-month h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+}
