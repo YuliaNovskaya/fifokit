@@ -59,23 +59,37 @@
       </div>
 
       <div class="calendar-export-gate">
-        <h3>Export your roster calendar</h3>
+        <h3>Download your 12-month FIFO roster PDF</h3>
 
         <p>
-          Enter your email to unlock basic PDF export.
+          Export a 12-month roster calendar based on your selected start date and roster pattern.
         </p>
 
-        <div class="export-form">
+        <button type="button" class="primary-btn" id="downloadRosterPdf">
+          Download 12-Month FIFO Roster PDF
+        </button>
+      </div>
+
+      <div class="email-modal hidden" id="emailModal">
+        <div class="email-modal-card">
+          <h3>Send your roster PDF</h3>
+
+          <p>
+            Enter your email to download your 12-month FIFO roster PDF.
+          </p>
+
           <input type="email" id="calendarEmail" placeholder="Enter your email" />
 
-          <button type="button" class="primary-btn" id="unlockExport">
-            Unlock Export
-          </button>
-        </div>
+          <div class="email-modal-actions">
+            <button type="button" class="primary-btn" id="confirmEmailDownload">
+              Download PDF
+            </button>
 
-        <button type="button" class="secondary-btn hidden" id="printCalendar">
-          Export Calendar as PDF
-        </button>
+            <button type="button" class="secondary-btn" id="closeEmailModal">
+              Cancel
+            </button>
+          </div>
+        </div>
       </div>
 
       <section class="roster-calendar-section">
