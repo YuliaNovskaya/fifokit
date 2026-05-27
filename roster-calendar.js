@@ -66,8 +66,18 @@ function getSchoolHolidayName(dateKey) {
 const rosterStartDateInput =
   document.getElementById("rosterStartDate");
 
+const savedRosterStartDate =
+  localStorage.getItem("fifoRosterStartDate");
+
+const savedRosterType =
+  localStorage.getItem("fifoRosterType");
+
 rosterStartDateInput.value =
-  new Date().toISOString().split("T")[0];
+  savedRosterStartDate || new Date().toISOString().split("T")[0];
+
+if (savedRosterType) {
+  document.getElementById("rosterType").value = savedRosterType;
+}
   
 function renderRosterCalendar() {
     const today = new Date();
