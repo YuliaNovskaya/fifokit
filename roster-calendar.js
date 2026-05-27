@@ -397,9 +397,39 @@ function renderPrintMonth(monthDate, containerId) {
   }
 
   for (let day = 1; day <= totalDays; day++) {
+    const rosterType =
+      document.getElementById("rosterType").value;
+
+    const [workDays, offDays] =
+      rosterType.split("-").map(Number);
+
+    const cycleLength =
+      workDays + offDays;
+
+    const rosterStartDateInput =
+      document.getElementById("rosterStartDate").value;
+
+    const rosterStartDate =
+      rosterStartDateInput
+        ? new Date(rosterStartDateInput + "T00:00:00")
+        : new Date(year, month, 1);
+
+    const currentDayDate =
+      new Date(year, month, day);
+
+    const dayIndex =
+      Math.floor((currentDayDate - rosterStartDate) / (1000 * 60 * 60 * 24));
+
+    const cycleDay =
+      ((dayIndex % cycleLength) + cycleLength) % cycleLength;
+
+    const isWorkDay =
+      cycleDay < workDays;
+
     container.innerHTML += `
-      <div class="print-day">
+      <div class="print-day ${isWorkDay ? "print-work-day" : "print-home-day"}">
         <strong>${day}</strong>
+        <span>${isWorkDay ? "Work" : "Home"}</span>
       </div>
     `;
   }
