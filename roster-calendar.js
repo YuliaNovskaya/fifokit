@@ -425,11 +425,22 @@ function renderPrintMonth(monthDate, containerId) {
 
     const isWorkDay =
       cycleDay < workDays;
+    
+      const dateKey =
+      `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+
+    const publicHolidayName =
+      waPublicHolidays[dateKey];
+
+    const schoolHolidayName =
+      getSchoolHolidayName(dateKey);
 
     container.innerHTML += `
-      <div class="print-day ${isWorkDay ? "print-work-day" : "print-home-day"}">
+      <div class="print-day ${isWorkDay ? "print-work-day" : "print-home-day"} ${publicHolidayName ? "print-public-holiday" : ""} ${schoolHolidayName ? "print-school-holiday" : ""}">
         <strong>${day}</strong>
         <span>${isWorkDay ? "Work" : "Home"}</span>
+        ${publicHolidayName ? `<span>${publicHolidayName}</span>` : ""}
+        ${schoolHolidayName ? `<span>${schoolHolidayName}</span>` : ""}
       </div>
     `;
   }
