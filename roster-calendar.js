@@ -284,6 +284,7 @@ downloadRosterPdfButton.addEventListener("click", () => {
     localStorage.getItem("pdfEmailCaptured");
 
   if (emailCaptured) {
+    prepareTwelveMonthPrintCalendar();
     window.print();
     return;
   }
@@ -305,6 +306,7 @@ confirmEmailDownloadButton.addEventListener("click", () => {
 
   emailModal.classList.add("hidden");
 
+  prepareTwelveMonthPrintCalendar();
   window.print();
 });
 
