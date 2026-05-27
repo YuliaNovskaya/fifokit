@@ -320,3 +320,7 @@ const savedEmail =
 if (savedEmail) {
   calendarEmailInput.value = savedEmail;
 }
+
+function prepareTwelveMonthPrintCalendar() {
+  localStorage.setItem("printMode", "twelveMonthRoster");
+}
