@@ -292,3 +292,11 @@ unlockExportButton.addEventListener("click", () => {
 printCalendarButton.addEventListener("click", () => {
   window.print();
 });
+
+const savedEmail =
+  localStorage.getItem("fifoCalendarEmail");
+
+if (savedEmail) {
+  calendarEmailInput.value = savedEmail;
+  printCalendarButton.classList.remove("hidden");
+}
