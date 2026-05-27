@@ -1413,3 +1413,41 @@ a {
   flex-wrap: wrap;
   margin: 30px 0;
 }
+
+.calendar-export-gate {
+  margin: 30px 0;
+  background: #171717;
+  border: 1px solid #2A2A2A;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.calendar-export-gate h3 {
+  margin-bottom: 12px;
+}
+
+.calendar-export-gate p {
+  color: #CFCFCF;
+  margin-bottom: 20px;
+}
+
+.export-form {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.export-form input {
+  background: #1B1B1B;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 16px;
+  color: white;
+  font-size: 16px;
+  min-width: 260px;
+}
+
+.hidden {
+  display: none;
+}
