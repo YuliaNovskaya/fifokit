@@ -1225,27 +1225,35 @@ a {
 
 @media (max-width: 768px) {
 
-.calendar-grid {
+  .calendar-grid {
   gap: 4px;
   }
 
-.calendar-day {
-  min-height: 54px;
-  padding: 4px;
-  border-radius: 8px;
+  .calendar-day {
+    min-height: 54px;
+    padding: 4px;
+    border-radius: 8px;
   }
 
-.calendar-day span {
-  font-size: 12px;
+  .calendar-day span {
+    font-size: 12px;
   }
 
-.calendar-day small {
-  font-size: 9px;
-  line-height: 1.2;
+  .calendar-day small {
+    font-size: 9px;
+    line-height: 1.2;
   }
 
-.roster-calendar {
-  padding: 14px;
+  .roster-calendar {
+    padding: 14px;
+  }
+
+  .roster-calendar {
+  overflow-x: auto;
+  }
+
+  .calendar-grid {
+    min-width: 520px;
   }
 }
 
