@@ -1552,4 +1552,23 @@ a {
   .print-day.empty {
     border: none;
   }
+
+  .print-day {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .print-day span {
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  .print-work-day {
+    background: #F8DADA;
+  }
+
+  .print-home-day {
+    background: #DFF3DF;
+  }
 }
