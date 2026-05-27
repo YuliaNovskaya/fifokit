@@ -347,7 +347,21 @@ function prepareTwelveMonthPrintCalendar() {
             year: "numeric",
           })}
         </h2>
+
+        <div class="print-weekdays">
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+          <div>Sun</div>
+        </div>
+
+        <div class="print-days" id="printDays-${i}"></div>
       </section>
     `;
+
+    renderPrintMonth(printMonth, `printDays-${i}`);
   }
 }
