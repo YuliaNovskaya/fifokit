@@ -1565,12 +1565,13 @@ a {
   }
 
   .print-work-day {
-    background: #F8DADA;
+    background-color: #F8DADA !important;
   }
 
   .print-home-day {
-      background: #DFF3DF;
+    background-color: #DFF3DF !important;
   }
+  
   .print-public-holiday {
     border: 2px solid #B38B00;
   }
@@ -1584,4 +1585,8 @@ a {
     font-size: 10px;
   }
 
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 }
