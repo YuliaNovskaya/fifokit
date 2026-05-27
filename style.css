@@ -1569,6 +1569,19 @@ a {
   }
 
   .print-home-day {
-    background: #DFF3DF;
+      background: #DFF3DF;
   }
+  .print-public-holiday {
+    border: 2px solid #B38B00;
+  }
+
+  .print-school-holiday {
+    box-shadow: inset 0 0 0 2px #5D9CEC;
+  }
+
+  .print-public-holiday span:last-child,
+  .print-school-holiday span:last-child {
+    font-size: 10px;
+  }
+
 }
