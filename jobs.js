@@ -1,5 +1,6 @@
 const jobsList = document.getElementById("jobsList");
 const loadMoreButton = document.getElementById("loadMoreJobs");
+const jobCount = document.getElementById("jobCount");
 
 let visibleJobsCount = 6;
 let currentFilteredJobs = jobs;
@@ -124,4 +125,5 @@ loadMoreButton.addEventListener("click", () => {
   renderJobs(currentFilteredJobs);
 });
 
+jobCount.textContent = ` ${jobs.length} active jobs listed.`;
 renderJobs(jobs);
