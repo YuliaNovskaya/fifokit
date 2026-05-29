@@ -1,6 +1,7 @@
 const jobsList = document.getElementById("jobsList");
 const loadMoreButton = document.getElementById("loadMoreJobs");
 const jobCount = document.getElementById("jobCount");
+const lastUpdated = document.getElementById("lastUpdated");
 
 let visibleJobsCount = 6;
 let currentFilteredJobs = jobs;
@@ -127,5 +128,14 @@ loadMoreButton.addEventListener("click", () => {
 
 if (jobCount) {
   jobCount.textContent = ` ${jobs.length} active jobs listed.`;
+}
+if (lastUpdated && jobs.length > 0) {
+
+  const latestDate = jobs
+    .map(job => new Date(job.dateAdded))
+    .sort((a, b) => b - a)[0];
+
+  lastUpdated.textContent =
+    latestDate.toLocaleDateString("en-AU");
 }
 renderJobs(jobs);
