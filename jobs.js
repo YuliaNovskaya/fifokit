@@ -125,5 +125,7 @@ loadMoreButton.addEventListener("click", () => {
   renderJobs(currentFilteredJobs);
 });
 
-jobCount.textContent = ` ${jobs.length} active jobs listed.`;
+if (jobCount) {
+  jobCount.textContent = ` ${jobs.length} active jobs listed.`;
+}
 renderJobs(jobs);
