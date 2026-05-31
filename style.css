@@ -1590,3 +1590,16 @@ a {
     print-color-adjust: exact;
   }
 }
+
+.role-links a {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.role-job-count {
+  display: inline-block;
+  color: #C8C8C8;
+  font-size: 14px;
+  font-weight: 600;
+}

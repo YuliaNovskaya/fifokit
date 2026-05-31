@@ -115,6 +115,30 @@ function filterJobs() {
   renderJobs(filtered);
 }
 
+function updateRoleCounts() {
+
+  const counts = {};
+
+  jobs.forEach((job) => {
+    counts[job.category] = (counts[job.category] || 0) + 1;
+  });
+
+  document.querySelectorAll("[data-category-count]").forEach((link) => {
+
+    const category = link.dataset.categoryCount;
+
+    const count = counts[category] || 0;
+
+    const countElement = link.querySelector(".role-job-count");
+
+    if (countElement) {
+      countElement.textContent =
+        count === 1 ? "1 active job" : `${count} active jobs`;
+    }
+
+  });
+}
+
 searchInput.addEventListener("input", filterJobs);
 
 categoryFilter.addEventListener("change", filterJobs);
@@ -138,4 +162,5 @@ if (lastUpdated && jobs.length > 0) {
   lastUpdated.textContent =
     latestDate.toLocaleDateString("en-AU");
 }
+updateRoleCounts();
 renderJobs(jobs);
