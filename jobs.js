@@ -123,17 +123,24 @@ function updateRoleCounts() {
     counts[job.category] = (counts[job.category] || 0) + 1;
   });
 
-  document.querySelectorAll("[data-category-count]").forEach((link) => {
+  document.querySelectorAll("[data-role-card]").forEach((card) => {
 
-    const category = link.dataset.categoryCount;
+    const category = card.dataset.roleCard;
 
     const count = counts[category] || 0;
 
-    const countElement = link.querySelector(".role-job-count");
+    const countElement = card.querySelector(".role-job-count");
+
+    const filterButton = card.querySelector(".role-filter-btn");
 
     if (countElement) {
       countElement.textContent =
         count === 1 ? "1 active job" : `${count} active jobs`;
+    }
+
+    if (filterButton) {
+      filterButton.textContent =
+        count === 1 ? "View 1 job" : `View ${count} jobs`;
     }
 
   });
@@ -148,6 +155,27 @@ rosterFilter.addEventListener("change", filterJobs);
 loadMoreButton.addEventListener("click", () => {
   visibleJobsCount += 6;
   renderJobs(currentFilteredJobs);
+});
+
+document.querySelectorAll("[data-category-filter]").forEach((button) => {
+
+  button.addEventListener("click", () => {
+
+    const category = button.dataset.categoryFilter;
+
+    categoryFilter.value = category;
+
+    visibleJobsCount = 6;
+
+    filterJobs();
+
+    document.getElementById("jobsList").scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+
+  });
+
 });
 
 if (jobCount) {
