@@ -175,7 +175,7 @@ if (jobsSignupForm) {
         throw new Error("Signup failed");
       }
 
-      jobsSignupMessage.textContent = "Done. You are on the FIFO jobs update list.";
+      jobsSignupMessage.textContent = "Success. We'll send new FIFO jobs, hiring updates and beginner-friendly opportunities.";
       jobsSignupForm.reset();
 
     } catch (error) {
