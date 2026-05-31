@@ -131,16 +131,16 @@ function updateRoleCounts() {
 
     const countElement = card.querySelector(".role-job-count");
 
-    const filterButton = card.querySelector(".role-filter-btn");
+    const filterLink = card.querySelector(".role-filter-link");
 
     if (countElement) {
       countElement.textContent =
         count === 1 ? "1 active job" : `${count} active jobs`;
     }
 
-    if (filterButton) {
-      filterButton.textContent =
-        count === 1 ? "View 1 job" : `View ${count} jobs`;
+    if (filterLink) {
+      filterLink.textContent =
+        count === 1 ? "1 active job" : `${count} active jobs`;
     }
 
   });
@@ -157,11 +157,13 @@ loadMoreButton.addEventListener("click", () => {
   renderJobs(currentFilteredJobs);
 });
 
-document.querySelectorAll("[data-category-filter]").forEach((button) => {
+document.querySelectorAll("[data-category-filter]").forEach((link) => {
 
-  button.addEventListener("click", () => {
+  link.addEventListener("click", (event) => {
 
-    const category = button.dataset.categoryFilter;
+    event.preventDefault();
+
+    const category = link.dataset.categoryFilter;
 
     categoryFilter.value = category;
 

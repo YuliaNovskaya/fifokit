@@ -929,31 +929,14 @@ a {
 }
 
 .role-job-count {
-  color: #C8C8C8;
+  color: #F5A623;
+  text-decoration: none;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.role-tag {
-  width: fit-content;
-  padding: 5px 9px;
-  border-radius: 999px;
-  background: #1B1B1B;
-  border: 1px solid #2F2F2F;
-  color: #D8D8D8;
-  font-size: 11px;
-  font-weight: 600;
-}
-
-.role-filter-btn {
-  margin-top: auto;
-  padding: 10px 12px;
-  border: none;
-  border-radius: 10px;
-  background: #F5A623;
-  color: #000000;
-  font-weight: 800;
-  cursor: pointer;
+.role-job-count:hover {
+  text-decoration: underline;
 }
 
 .role-guide-link {
