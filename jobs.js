@@ -192,5 +192,28 @@ if (lastUpdated && jobs.length > 0) {
   lastUpdated.textContent =
     latestDate.toLocaleDateString("en-AU");
 }
+
+function applyCategoryFromUrl() {
+
+  const params = new URLSearchParams(window.location.search);
+
+  const category = params.get("category");
+
+  if (!category) {
+    return;
+  }
+
+  if (categoryFilter) {
+    categoryFilter.value = category;
+    filterJobs();
+  }
+}
+
+applyCategoryFromUrl();
+
 updateRoleCounts();
-renderJobs(jobs);
+applyCategoryFromUrl();
+
+if (!new URLSearchParams(window.location.search).get("category")) {
+  renderJobs(jobs);
+}
