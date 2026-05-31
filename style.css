@@ -911,8 +911,8 @@ a {
 }
 
 .role-card {
-  min-height: 150px;
-  padding: 16px;
+  min-height: auto;
+  padding: 14px 16px;
   border-radius: 14px;
   background: #121212;
   border: 1px solid #262626;
@@ -1626,9 +1626,9 @@ a {
   }
 
   .role-card {
-    min-width: 190px;
-    min-height: 145px;
-    padding: 14px;
+    min-width: 170px;
+    min-height: auto;
+    padding: 12px 14px;
     flex-shrink: 0;
   }
 
