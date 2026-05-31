@@ -1662,3 +1662,52 @@ a {
     margin-top: 4px;
   }
 }
+
+.jobs-signup {
+  padding: 28px;
+  margin-bottom: 36px;
+  border-radius: 18px;
+  background: #121212;
+  border: 1px solid #262626;
+}
+
+.jobs-signup h2 {
+  margin-bottom: 10px;
+}
+
+.jobs-signup p {
+  color: #C8C8C8;
+  margin-bottom: 20px;
+}
+
+.jobs-signup-form {
+  display: flex;
+  gap: 12px;
+}
+
+.jobs-signup-form input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  background: #111;
+  color: white;
+}
+
+.jobs-signup-form button {
+  border: none;
+  border-radius: 12px;
+  background: #F5A623;
+  color: #000;
+  font-weight: 700;
+  padding: 14px 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+
+  .jobs-signup-form {
+    flex-direction: column;
+  }
+
+}
