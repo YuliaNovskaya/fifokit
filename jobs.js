@@ -146,6 +146,44 @@ function updateRoleCounts() {
   });
 }
 
+const jobsSignupForm = document.getElementById("jobsSignupForm");
+const jobsSignupEmail = document.getElementById("jobsSignupEmail");
+const jobsSignupMessage = document.getElementById("jobsSignupMessage");
+
+const jobsSignupWebhookUrl = "https://hook.us2.make.com/4lo8fwn3e1x9ct7tkv6zt7ytdphcr8ha";
+
+if (jobsSignupForm) {
+  jobsSignupForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    jobsSignupMessage.textContent = "Submitting...";
+
+    try {
+      const response = await fetch(jobsSignupWebhookUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          email: jobsSignupEmail.value,
+          source: "jobs-page",
+          categoryInterest: categoryFilter.value || "all"
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error("Signup failed");
+      }
+
+      jobsSignupMessage.textContent = "Done. You are on the FIFO jobs update list.";
+      jobsSignupForm.reset();
+
+    } catch (error) {
+      jobsSignupMessage.textContent = "Something went wrong. Please try again.";
+    }
+  });
+}
+
 searchInput.addEventListener("input", filterJobs);
 
 categoryFilter.addEventListener("change", filterJobs);

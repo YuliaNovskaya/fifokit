@@ -1711,3 +1711,9 @@ a {
   }
 
 }
+
+.jobs-signup-message {
+  margin-top: 12px;
+  color: #C8C8C8;
+  font-size: 14px;
+}
