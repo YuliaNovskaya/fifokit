@@ -159,7 +159,6 @@ form.addEventListener("submit", function (e) {
       <p>
         Want the full FIFO entry roadmap?
       </p>
-
       <a class="primary-btn" href="https://buy.stripe.com/fZu00icgQ4Ho9tjgFTgQE00" target="_blank" rel="noopener">Get Starter Pack</a>
     </div>
   `;
