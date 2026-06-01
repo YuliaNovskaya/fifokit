@@ -160,9 +160,7 @@ form.addEventListener("submit", function (e) {
         Want the full FIFO entry roadmap?
       </p>
 
-      <a href="#buy" class="primary-btn">
-        Download the FIFOKIT Starter Pack
-      </a>
+      <a class="primary-btn" href="https://buy.stripe.com/fZu00icgQ4Ho9tjgFTgQE00" target="_blank" rel="noopener">Get Starter Pack</a>
     </div>
   `;
 });
