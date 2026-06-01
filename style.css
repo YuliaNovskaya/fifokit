@@ -1709,6 +1709,32 @@ a {
   .jobs-signup-form {
     flex-direction: column;
   }
+  
+  .legal-hero {
+    padding: 120px 24px 48px;
+  }
+
+  .legal-hero h1 {
+    font-size: 3rem;
+  }
+
+  .legal-hero p {
+    font-size: 1rem;
+  }
+
+  .legal-content {
+    padding: 0 16px 80px;
+  }
+
+  .legal-card {
+    padding: 28px 22px;
+    border-radius: 18px;
+  }
+
+  .legal-card h2 {
+    font-size: 1.1rem;
+    margin-top: 34px;
+  }
 
 }
 
@@ -1716,4 +1742,66 @@ a {
   margin-top: 12px;
   color: #C8C8C8;
   font-size: 14px;
+}
+
+.legal-hero {
+  padding: 160px 80px 70px;
+  text-align: center;
+  background: #111111;
+}
+
+.legal-hero h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: 0.95;
+  margin: 18px 0;
+  text-transform: uppercase;
+}
+
+.legal-hero p {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #D0D0D0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.legal-content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 24px 120px;
+}
+
+.legal-updated {
+  color: #F5A623;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.legal-card {
+  background: #181818;
+  border: 1px solid rgba(245, 166, 35, 0.25);
+  border-radius: 24px;
+  padding: 56px;
+}
+
+.legal-card h2 {
+  color: #F5A623;
+  font-size: 1.5rem;
+  margin: 44px 0 14px;
+  text-transform: uppercase;
+}
+
+.legal-card h2:first-child {
+  margin-top: 0;
+}
+
+.legal-card p {
+  color: #D0D0D0;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.legal-card a {
+  color: #F5A623;
+  font-weight: 700;
 }
