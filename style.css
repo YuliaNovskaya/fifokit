@@ -43,8 +43,10 @@ body {
 .logo {
   font-family: 'Oswald', sans-serif;
   font-size: 34px;
-  font-weight: 700;
   letter-spacing: 1px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 800;
 }
 
 .logo span {
@@ -1709,7 +1711,7 @@ a {
   .jobs-signup-form {
     flex-direction: column;
   }
-  
+
   .legal-hero {
     padding: 120px 24px 48px;
   }
@@ -1736,6 +1738,28 @@ a {
     margin-top: 34px;
   }
 
+  .contact-section {
+    padding-top: 20px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .contact-card {
+    padding: 28px 22px;
+    border-radius: 18px;
+  }
+
+  .contact-card h2 {
+    font-size: 1.45rem;
+  }
+
+  .contact-email {
+    font-size: 1.05rem;
+    word-break: break-word;
+  }
 }
 
 .jobs-signup-message {
@@ -1804,4 +1828,61 @@ a {
 .legal-card a {
   color: #F5A623;
   font-weight: 700;
+}
+
+.contact-section {
+  padding-top: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: #171717;
+  border: 1px solid rgba(245, 166, 35, 0.22);
+  border-radius: 24px;
+  padding: 42px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.contact-card h2 {
+  font-size: 2rem;
+  margin: 18px 0 18px;
+  text-transform: uppercase;
+}
+
+.contact-card p {
+  color: #D0D0D0;
+  line-height: 1.7;
+}
+
+.contact-email {
+  display: inline-block;
+  margin-top: 24px;
+  color: #F5A623;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-note {
+  margin-top: 28px;
+  color: #FFC107;
+  font-weight: 700;
+}
+
+.contact-list {
+  margin-top: 24px;
+  padding-left: 20px;
+}
+
+.contact-list li {
+  color: #D0D0D0;
+  margin-bottom: 14px;
+  line-height: 1.6;
 }
