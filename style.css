@@ -768,7 +768,9 @@ a {
 }
 
 .jobs-hero {
-  margin-bottom: 48px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 48px;
 }
 
 .jobs-hero h1 {
@@ -890,6 +892,7 @@ a {
 .jobs-hero-actions {
   margin-top: 28px;
   display: flex;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
 }
