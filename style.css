@@ -272,21 +272,6 @@ body {
   position: relative;
 }
 
-.pathway-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 28px;
-}
-
-.pathway-card {
-  background: #1D1D1D;
-  border: 1px solid #2B2B2B;
-  padding: 36px;
-  transition: 0.25s ease;
-  cursor: pointer;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-}
-
 .pathway-card h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
@@ -312,6 +297,42 @@ body {
 .pathway-card:hover {
   border-color: var(--orange);
   transform: translateY(-4px);
+}
+
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  width: 100%;
+}
+
+.pathway-card {
+  width: auto;
+  max-width: none;
+  display: flex;
+  flex-direction: column;
+  background: #1A1A1A;
+  border: 1px solid #2A2A2A;
+  padding: 32px;
+  min-height: 280px;
+  box-sizing: border-box;
+}
+
+.pathway-card .secondary-btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 1000px) {
+  .pathway-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .pathway-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .wage-table {
