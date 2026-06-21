@@ -782,6 +782,8 @@ a {
   max-width: 720px;
   line-height: 1.7;
   color: #BDBDBD;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .jobs-controls {
