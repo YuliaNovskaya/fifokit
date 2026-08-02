@@ -664,6 +664,13 @@ body {
   margin-bottom: 24px;
 }
 
+.price-note {
+  margin-top: -12px;
+  margin-bottom: 24px;
+  color: #BDBDBD;
+  font-size: 14px;
+}
+
 .starter-description {
   color: #D0D0D0;
   line-height: 1.7;
