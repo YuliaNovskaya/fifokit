@@ -15,31 +15,31 @@ SEARCH_TARGETS = [
         "keyword": "FIFO Utility Worker",
         "category": "utility-worker",
         "experience": "entry",
-        "limit": 5,
+        "limit": 20,
     },
     {
         "keyword": "FIFO Trade Assistant",
         "category": "trade-assistant",
         "experience": "entry",
-        "limit": 5,
+        "limit": 20,
     },
     {
         "keyword": "FIFO Driller Offsider",
         "category": "drillers-offsider",
         "experience": "entry",
-        "limit": 5,
+        "limit": 20,
     },
     {
         "keyword": "FIFO Site Administrator",
         "category": "site-administrator",
         "experience": "entry",
-        "limit": 5,
+        "limit": 20,
     },
     {
         "keyword": "FIFO Underground Nipper Trainee",
         "category": "underground-nipper",
         "experience": "entry",
-        "limit": 5,
+        "limit": 20,
     },
 ]
 
