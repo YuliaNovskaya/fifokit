@@ -1,4 +1,4 @@
-1. whats included in the wa fifo started pack - remove WA fifo jobs list
+
 2. starter videos
 3. not for just wa 
 4. update jobs.html, check the dates

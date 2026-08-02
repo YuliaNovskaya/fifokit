@@ -1339,13 +1339,13 @@ a {
 }
 
 .calendar-day.work-day {
-  background: #2A1A1A;
-  border-color: #5A2A2A;
+  background: #7A2E2E;
+  border-color: #D95C5C;
 }
 
 .calendar-day.home-day {
-  background: #1A241A;
-  border-color: #2D5A2D;
+  background: #2E7D32;
+  border-color: #6BFF6B;
 }
 
 .calendar-legend {
@@ -1360,11 +1360,11 @@ a {
 }
 
 .work-legend {
-  color: #F2B8B8;
+  color: #FF8A8A;
 }
 
 .home-legend {
-  color: #B8F2B8;
+  color: #7CFF7C;
 }
 
 .calendar-header {
@@ -1450,16 +1450,27 @@ a {
 }
 
 .calendar-day.public-holiday {
-  border-color: #C9A227;
-  box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.35);
+  border: 3px solid #FFC107;
+  background-image: inset 0 0 0 1px rgba(255, 193, 7, 0.25);
 }
 
 .calendar-day.public-holiday small:last-child {
-  color: #F2D16B;
+  color: #FFC107;
+  font-weight: 800;
+}
+
+.calendar-day .public-holiday-name {
+  color: #FFC107;
+  font-weight: 800;
+}
+
+.calendar-day .school-holiday-name {
+  color: #9CC7FF;
+  font-weight: 700;
 }
 
 .holiday-legend {
-  color: #F2D16B;
+  color: #FFD54A;
 }
 
 .calendar-day.school-holiday {

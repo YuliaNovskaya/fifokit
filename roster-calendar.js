@@ -203,8 +203,8 @@ function renderRosterCalendar() {
       <div class="calendar-day ${isToday ? "today" : ""} ${isWorkDay ? "work-day" : "home-day"} ${isPublicHoliday ? "public-holiday" : ""} ${isSchoolHoliday ? "school-holiday" : ""}">
         <span>${day}</span>
         <small>${isWorkDay ? "Work" : "Home"}</small>
-        ${isPublicHoliday ? `<small>${publicHolidayName}</small>` : ""}
-        ${isSchoolHoliday ? `<small>${schoolHolidayName}</small>` : ""}
+        ${isPublicHoliday ? `<small class="public-holiday-name">${publicHolidayName}</small>` : ""}
+        ${isSchoolHoliday ? `<small class="school-holiday-name">${schoolHolidayName}</small>` : ""}
       </div>
     `;
   }
