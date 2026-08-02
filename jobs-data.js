@@ -1,5 +1,45 @@
 const jobs = [
   {
+    "jobKey": "project administrator - western australia|mccosker contracting pty ltd|perth wa|https://www.seek.com.au/job/93644084",
+    "title": "Project Administrator - Western Australia",
+    "company": "McCosker Contracting Pty Ltd",
+    "location": "Perth WA",
+    "roster": "Not listed",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93644084"
+  },
+  {
+    "jobKey": "indigenous fifo utility - service attendant|sodexo|perth wa (remote)|https://www.seek.com.au/job/93159986",
+    "title": "Indigenous FIFO Utility - Service Attendant",
+    "company": "Sodexo",
+    "location": "Perth WA (Remote)",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Food Safety"
+    ],
+    "salary": "$85,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93159986"
+  },
+  {
     "jobKey": "drillers offsider traineeship|topdrill pty ltd|perth wa|https://www.seek.com.au/job/92390540",
     "title": "Drillers Offsider Traineeship",
     "company": "Topdrill Pty Ltd",
@@ -23,6 +63,23 @@ const jobs = [
     "applyUrl": "https://www.seek.com.au/job/92390540"
   },
   {
+    "jobKey": "site administor|polaris engineering|perth wa|https://www.seek.com.au/job/93530167",
+    "title": "Site Administor",
+    "company": "Polaris Engineering",
+    "location": "Perth WA",
+    "roster": "Not listed",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [],
+    "salary": "$55",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93530167"
+  },
+  {
     "jobKey": "administrator - site|macmahon|perth wa|https://www.seek.com.au/job/92371098",
     "title": "Administrator - Site",
     "company": "Macmahon",
@@ -38,6 +95,253 @@ const jobs = [
     "lastChecked": "",
     "status": "Active",
     "applyUrl": "https://www.seek.com.au/job/92371098"
+  },
+  {
+    "jobKey": "experienced fifo utility workers|unite resourcing|perth wa|https://www.seek.com.au/job/93305772",
+    "title": "Experienced FIFO Utility Workers",
+    "company": "Unite Resourcing",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "National Police Check",
+      "Forklift Licence",
+      "RSA",
+      "Food Safety"
+    ],
+    "salary": "$41.20",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93305772"
+  },
+  {
+    "jobKey": "fifo minesite cleaners - casual|ironmerge pty ltd|perth wa (remote)|https://www.seek.com.au/job/93650545",
+    "title": "FIFO Minesite Cleaners - Casual",
+    "company": "IronMerge Pty Ltd",
+    "location": "Perth WA (Remote)",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$38",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93650545"
+  },
+  {
+    "jobKey": "site administrator|civcon civil & project management pty ltd|perth wa|https://www.seek.com.au/job/93650173",
+    "title": "Site Administrator",
+    "company": "Civcon Civil & Project Management Pty Ltd",
+    "location": "Perth WA",
+    "roster": "Not listed",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "White Card"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93650173"
+  },
+  {
+    "jobKey": "vacuum truck offsiders and operators - fifo opportunities|ivac wa|wangara, perth wa|https://www.seek.com.au/job/93610720",
+    "title": "Vacuum Truck Offsiders and Operators - FIFO Opportunities",
+    "company": "iVac WA",
+    "location": "Wangara, Perth WA",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "HR Licence",
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93610720"
+  },
+  {
+    "jobKey": "eoi site administrators|corestaff perth|perth wa|https://www.seek.com.au/job/93480301",
+    "title": "EOI Site Administrators",
+    "company": "Corestaff Perth",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93480301"
+  },
+  {
+    "jobKey": "entry level driller's offsider | fifo|lh partners|perth wa|https://www.seek.com.au/job/93676065",
+    "title": "Entry Level Driller's Offsider | FIFO",
+    "company": "LH Partners",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$120,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93676065"
+  },
+  {
+    "jobKey": "trade assistant|corefab|naval base, perth wa|https://www.seek.com.au/job/93615851",
+    "title": "Trade assistant",
+    "company": "Corefab",
+    "location": "Naval Base, Perth WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "HR Licence",
+      "C Class Licence",
+      "Forklift Licence"
+    ],
+    "salary": "$38",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93615851"
+  },
+  {
+    "jobKey": "fifo drillers offsider | labourer | starting on $130,000 per year minimum!!|redfield resources|perth wa (remote)|https://www.seek.com.au/job/93571580",
+    "title": "FIFO Drillers Offsider | Labourer | Starting on $130,000 per year MINIMUM!!",
+    "company": "Redfield Resources",
+    "location": "Perth WA (Remote)",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "$130,000 per year",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93483681"
+  },
+  {
+    "jobKey": "entry level underground mining|barminco pty ltd|perth wa|https://www.seek.com.au/job/93516519",
+    "title": "Entry Level Underground Mining",
+    "company": "Barminco Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93516519"
+  },
+  {
+    "jobKey": "site administrator|contract resources pty ltd|karratha, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93331140",
+    "title": "Site Administrator",
+    "company": "Contract Resources Pty Ltd",
+    "location": "Karratha, Port Hedland, Karratha & Pilbara WA",
+    "roster": "Not listed",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93331140"
+  },
+  {
+    "jobKey": "fifo mechanical trade assistant|staff-net|perth wa|https://www.seek.com.au/job/93590532",
+    "title": "FIFO Mechanical Trade Assistant",
+    "company": "Staff-Net",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$45",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93590532"
+  },
+  {
+    "jobKey": "fifo trade assistant|connect people pty ltd|kalgoorlie, kalgoorlie, goldfields & esperance wa|https://www.seek.com.au/job/93168810",
+    "title": "FIFO Trade Assistant",
+    "company": "Connect People Pty Ltd",
+    "location": "Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "Working at Heights",
+      "Confined Space"
+    ],
+    "salary": "$41.19 - $43.93 p/h",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93168810"
   },
   {
     "jobKey": "fifo utility - fulltime 2:1 swings|ironmerge pty ltd|perth wa (remote)|https://www.seek.com.au/job/91839886",
@@ -81,7 +385,26 @@ const jobs = [
     "dateAdded": "2026-05-29",
     "lastChecked": "2026-08-02",
     "status": "Active",
-    "applyUrl": "https://www.seek.com.au/job/93362281"
+    "applyUrl": "https://www.seek.com.au/job/93223620"
+  },
+  {
+    "jobKey": "site administrator – npi projects|wirlu-murra enterprises pty. ltd|mount sheila, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93565783",
+    "title": "Site Administrator – NPI Projects",
+    "company": "Wirlu-murra Enterprises Pty. Ltd",
+    "location": "Mount Sheila, Port Hedland, Karratha & Pilbara WA",
+    "roster": "4:3",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$47",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93565783"
   },
   {
     "jobKey": "trade assistant | 2:1 fifo roster|polaris engineering|perth wa|https://www.seek.com.au/job/92386542",
@@ -108,6 +431,198 @@ const jobs = [
     "applyUrl": "https://www.seek.com.au/job/93210814"
   },
   {
+    "jobKey": "entry level drillers offsider's|true resources|perth wa|https://www.seek.com.au/job/93594209",
+    "title": "Entry Level Drillers Offsider's",
+    "company": "True Resources",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "First Aid",
+      "Confined Space"
+    ],
+    "salary": "$130,000 per year",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93594209"
+  },
+  {
+    "jobKey": "fifo mining administrator|aus employment services|perth wa|https://www.seek.com.au/job/93503234",
+    "title": "FIFO Mining Administrator",
+    "company": "AUS Employment Services",
+    "location": "Perth WA",
+    "roster": "4:3",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "RSA"
+    ],
+    "salary": "$50.00 per hour",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93503234"
+  },
+  {
+    "jobKey": "fifo full time mine site cleaners|pindari wa pty ltd|perth wa|https://www.seek.com.au/job/93677682",
+    "title": "FIFO Full time Mine Site Cleaners",
+    "company": "Pindari WA PTY LTD",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "RSA"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93677682"
+  },
+  {
+    "jobKey": "trades assistant|bridgestone mining solutions australia pty ltd|forrestfield, perth wa|https://www.seek.com.au/job/93607365",
+    "title": "Trades Assistant",
+    "company": "Bridgestone Mining Solutions Australia Pty Ltd",
+    "location": "Forrestfield, Perth WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93607365"
+  },
+  {
+    "jobKey": "mine site cleaner|maca mining pty ltd|perth wa|https://www.seek.com.au/job/93679404",
+    "title": "Mine Site Cleaner",
+    "company": "Maca Mining Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "HR Licence"
+    ],
+    "salary": "$2,500",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93679404"
+  },
+  {
+    "jobKey": "site administrator - karara|bis industries|perth wa|https://www.seek.com.au/job/93209196",
+    "title": "Site Administrator - Karara",
+    "company": "Bis Industries",
+    "location": "Perth WA",
+    "roster": "8/6",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93209196"
+  },
+  {
+    "jobKey": "site administrator - thunderbox|qube|perth wa|https://www.seek.com.au/job/93564744",
+    "title": "Site Administrator - Thunderbox",
+    "company": "Qube",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93564744"
+  },
+  {
+    "jobKey": "mine site cleaning | regional wa | 14:7|civeo|perth wa|https://www.seek.com.au/job/93646867",
+    "title": "Mine Site Cleaning | Regional WA | 14:7",
+    "company": "Civeo",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [],
+    "salary": "$87523",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93646867"
+  },
+  {
+    "jobKey": "bus driver / utility / airside (tropicana)|programmed|perth wa|https://www.seek.com.au/job/93135040",
+    "title": "Bus Driver / Utility / Airside (Tropicana)",
+    "company": "Programmed",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check"
+    ],
+    "salary": "$100",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93135040"
+  },
+  {
+    "jobKey": "minesite cleaner|programmed|perth wa|https://www.seek.com.au/job/93653316",
+    "title": "Minesite Cleaner",
+    "company": "Programmed",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$100",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93653316"
+  },
+  {
     "jobKey": "entry level nipper operator|evolution mining|kalgoorlie, kalgoorlie, goldfields & esperance wa|https://www.seek.com.au/job/92386776",
     "title": "Entry Level Nipper Operator",
     "company": "Evolution Mining",
@@ -125,6 +640,129 @@ const jobs = [
     "lastChecked": "2026-08-02",
     "status": "Active",
     "applyUrl": "https://www.seek.com.au/job/93595133"
+  },
+  {
+    "jobKey": "junior trades assistant (entry level)|frontline fire and rescue equipment|malaga, perth wa|https://www.seek.com.au/job/93632569",
+    "title": "Junior Trades Assistant (Entry Level)",
+    "company": "Frontline Fire and Rescue Equipment",
+    "location": "Malaga, Perth WA",
+    "roster": "FIFO",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93632569"
+  },
+  {
+    "jobKey": "fifo opportunity - 2/1 hvac trade assistant|practical maintenance services|wangara, perth wa|https://www.seek.com.au/job/93330295",
+    "title": "FIFO Opportunity - 2/1 HVAC Trade Assistant",
+    "company": "Practical Maintenance Services",
+    "location": "Wangara, Perth WA",
+    "roster": "2/1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "National Police Check",
+      "Working at Heights",
+      "Confined Space"
+    ],
+    "salary": "$34",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93330295"
+  },
+  {
+    "jobKey": "graduate engineer: mining|focus minerals ltd|perth wa|https://www.seek.com.au/job/93592782",
+    "title": "Graduate Engineer: Mining",
+    "company": "Focus Minerals Ltd",
+    "location": "Perth WA",
+    "roster": "8/6",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93592782"
+  },
+  {
+    "jobKey": "site administrator|maca mining pty ltd|perth wa|https://www.seek.com.au/job/93454519",
+    "title": "Site Administrator",
+    "company": "Maca Mining Pty Ltd",
+    "location": "Perth WA",
+    "roster": "8/6",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$2,500",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93454519"
+  },
+  {
+    "jobKey": "dido utilities - kalgoorlie|iss facility services|kalgoorlie, kalgoorlie, goldfields & esperance wa|https://www.seek.com.au/job/93465877",
+    "title": "DIDO Utilities - Kalgoorlie",
+    "company": "ISS Facility Services",
+    "location": "Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA",
+    "roster": "Not listed",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "Forklift Licence",
+      "RSA"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93465877"
+  },
+  {
+    "jobKey": "fifo camp utility (all rounder)|meeka metals limited|perth wa|https://www.seek.com.au/job/93517338",
+    "title": "FIFO Camp Utility (All rounder)",
+    "company": "Meeka Metals Limited",
+    "location": "Perth WA",
+    "roster": "8:6",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93517338"
   },
   {
     "jobKey": "roving administrator|byrnecut australia pty ltd|perth airport, perth wa|https://www.seek.com.au/job/92365173",
@@ -145,6 +783,337 @@ const jobs = [
     "lastChecked": "",
     "status": "Active",
     "applyUrl": "https://www.seek.com.au/job/92365173"
+  },
+  {
+    "jobKey": "site administrator|fenix resources|perth wa|https://www.seek.com.au/job/93477906",
+    "title": "Site Administrator",
+    "company": "Fenix Resources",
+    "location": "Perth WA",
+    "roster": "8/6",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93477906"
+  },
+  {
+    "jobKey": "fifo utility all-rounder must have experience|remote chef|mount hawthorn, perth wa|https://www.seek.com.au/job/93512219",
+    "title": "FIFO Utility All-Rounder MUST HAVE EXPERIENCE",
+    "company": "Remote Chef",
+    "location": "Mount Hawthorn, Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "National Police Check",
+      "Forklift Licence",
+      "RSA"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93512219"
+  },
+  {
+    "jobKey": "fifo | `carpenters | concreters | all round operators|precision electrical & construction|perth wa|https://www.seek.com.au/job/93558596",
+    "title": "FIFO | `Carpenters | Concreters | All round Operators",
+    "company": "Precision Electrical & Construction",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "Working at Heights"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93558596"
+  },
+  {
+    "jobKey": "fifo civil operators|techforce personnel pty.|perth wa|https://www.seek.com.au/job/93651683",
+    "title": "FIFO Civil Operators",
+    "company": "Techforce Personnel Pty.",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "White Card"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93651683"
+  },
+  {
+    "jobKey": "shutdown – mechanical fitters, boilermakers, riggers & trade assistants|jws industries|greenbushes, bunbury & south west wa|https://www.seek.com.au/job/93669155",
+    "title": "Shutdown – Mechanical Fitters, Boilermakers, Riggers & Trade Assistants",
+    "company": "JWS Industries",
+    "location": "Greenbushes, Bunbury & South West WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "Working at Heights",
+      "Confined Space",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93669155"
+  },
+  {
+    "jobKey": "trade assistant - immediate start - residential position|allround plumbing services|karratha, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93149696",
+    "title": "Trade Assistant - Immediate Start - RESIDENTIAL POSITION",
+    "company": "Allround Plumbing Services",
+    "location": "Karratha, Port Hedland, Karratha & Pilbara WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "Working at Heights",
+      "Forklift Licence"
+    ],
+    "salary": "$50",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93149696"
+  },
+  {
+    "jobKey": "drillers offsider / water well / fifo wa|acqua drill resources|perth wa|https://www.seek.com.au/job/93703541",
+    "title": "Drillers Offsider / Water well / FIFO WA",
+    "company": "Acqua Drill Resources",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "First Aid",
+      "Working at Heights"
+    ],
+    "salary": "$120,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93703541"
+  },
+  {
+    "jobKey": "trade assistant|jayco caravanland|beckenham, perth wa|https://www.seek.com.au/job/93607327",
+    "title": "Trade Assistant",
+    "company": "jayco caravanland",
+    "location": "Beckenham, Perth WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93607327"
+  },
+  {
+    "jobKey": "site administrators|corestaff perth|port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93463837",
+    "title": "Site Administrators",
+    "company": "Corestaff Perth",
+    "location": "Port Hedland, Karratha & Pilbara WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93463837"
+  },
+  {
+    "jobKey": "trade assistant - casual day/night shift|allspec engineering pty ltd|hope valley, perth wa|https://www.seek.com.au/job/93654579",
+    "title": "Trade Assistant - Casual Day/Night Shift",
+    "company": "Allspec Engineering Pty Ltd",
+    "location": "Hope Valley, Perth WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93654579"
+  },
+  {
+    "jobKey": "site administrator|westgold resources limited|perth wa|https://www.seek.com.au/job/93461431",
+    "title": "Site Administrator",
+    "company": "Westgold Resources Limited",
+    "location": "Perth WA",
+    "roster": "2:2",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93461431"
+  },
+  {
+    "jobKey": "administrator|hawkeye services|ascot, perth wa|https://www.seek.com.au/job/93536273",
+    "title": "Administrator",
+    "company": "Hawkeye Services",
+    "location": "Ascot, Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93536273"
+  },
+  {
+    "jobKey": "trade assistants|alltype engineering pty. ltd.|perth wa|https://www.seek.com.au/job/93172109",
+    "title": "Trade Assistants",
+    "company": "Alltype Engineering Pty. Ltd.",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "Working at Heights",
+      "Confined Space",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93172109"
+  },
+  {
+    "jobKey": "trade assistant|2xm recruit|kewdale, perth wa|https://www.seek.com.au/job/93678405",
+    "title": "Trade Assistant",
+    "company": "2XM Recruit",
+    "location": "Kewdale, Perth WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93678405"
+  },
+  {
+    "jobKey": "trades opportunities – various trades wanted for immediate start|ccr group pty ltd|bunbury, bunbury & south west wa|https://www.seek.com.au/job/93461356",
+    "title": "Trades Opportunities – Various Trades Wanted for Immediate Start",
+    "company": "CCR GROUP PTY LTD",
+    "location": "Bunbury, Bunbury & South West WA",
+    "roster": "7:7",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "Working at Heights",
+      "Confined Space",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93461356"
+  },
+  {
+    "jobKey": "site administrator|scotford fennessy recruitment|perth wa|https://www.seek.com.au/job/93695180",
+    "title": "Site Administrator",
+    "company": "Scotford Fennessy Recruitment",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93695180"
   },
   {
     "jobKey": "entry level drillers offsider - fifo | surface & underground | $120k+|niche resources group|perth wa|https://www.seek.com.au/job/92384594",
@@ -168,6 +1137,384 @@ const jobs = [
     "applyUrl": "https://www.seek.com.au/job/92384594"
   },
   {
+    "jobKey": "site administrator|jakamo remote services|port hedland, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93379479",
+    "title": "Site Administrator",
+    "company": "Jakamo Remote Services",
+    "location": "Port Hedland, Port Hedland, Karratha & Pilbara WA",
+    "roster": "8/6",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$57.50",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93379479"
+  },
+  {
+    "jobKey": "driller offsider fifo|vm drilling pty ltd|perth wa|https://www.seek.com.au/job/93652173",
+    "title": "Driller Offsider FIFO",
+    "company": "VM Drilling Pty Ltd",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check",
+      "First Aid",
+      "Working at Heights"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93652173"
+  },
+  {
+    "jobKey": "site administrators|silverstone|perth wa|https://www.seek.com.au/job/93418675",
+    "title": "Site Administrators",
+    "company": "Silverstone",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93418675"
+  },
+  {
+    "jobKey": "fifo utility - experienced only | full-time|ironmerge pty ltd|perth wa (remote)|https://www.seek.com.au/job/93200720",
+    "title": "FIFO Utility - Experienced Only | Full-time",
+    "company": "IronMerge Pty Ltd",
+    "location": "Perth WA (Remote)",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check",
+      "Food Safety"
+    ],
+    "salary": "$91,466.06",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93200720"
+  },
+  {
+    "jobKey": "fifo casual mine site cleaners|pindari wa pty ltd|perth wa|https://www.seek.com.au/job/93650202",
+    "title": "FIFO Casual Mine Site Cleaners",
+    "company": "Pindari WA PTY LTD",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93650202"
+  },
+  {
+    "jobKey": "fifo manual labourers|nr metal recycling|telfer, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93598264",
+    "title": "FIFO Manual Labourers",
+    "company": "NR Metal Recycling",
+    "location": "Telfer, Port Hedland, Karratha & Pilbara WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Forklift Licence"
+    ],
+    "salary": "$50",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93598264"
+  },
+  {
+    "jobKey": "trades assistant|pls|port hedland, port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93455438",
+    "title": "Trades Assistant",
+    "company": "PLS",
+    "location": "Port Hedland, Port Hedland, Karratha & Pilbara WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "Working at Heights",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93455438"
+  },
+  {
+    "jobKey": "site administrator - lake johnston|forrestania resources|perth wa|https://www.seek.com.au/job/93396051",
+    "title": "Site Administrator - Lake Johnston",
+    "company": "Forrestania Resources",
+    "location": "Perth WA",
+    "roster": "8:6",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93396051"
+  },
+  {
+    "jobKey": "drillers offsider (assistant) | fifo from perth | experienced and entry level|true resources|perth wa|https://www.seek.com.au/job/93594676",
+    "title": "Drillers Offsider (Assistant) | FIFO from Perth | Experienced and Entry Level",
+    "company": "True Resources",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "First Aid",
+      "Confined Space"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93594676"
+  },
+  {
+    "jobKey": "driller offsider fifo|nexgen drilling pty ltd|perth wa|https://www.seek.com.au/job/93506048",
+    "title": "Driller Offsider FIFO",
+    "company": "Nexgen Drilling Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "HR Licence",
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93506048"
+  },
+  {
+    "jobKey": "multiple role - dozer / grader/ all rounder/ excavator / dump truck / water cart|pilbara resource group|wiluna, kalgoorlie, goldfields & esperance wa|https://www.seek.com.au/job/93655576",
+    "title": "MULTIPLE ROLE - Dozer / Grader/ All Rounder/ Excavator / Dump Truck / Water Cart",
+    "company": "Pilbara Resource Group",
+    "location": "Wiluna, Kalgoorlie, Goldfields & Esperance WA",
+    "roster": "2/1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$50",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93655576"
+  },
+  {
+    "jobKey": "fifo grounds utility|programmed|perth wa|https://www.seek.com.au/job/93680824",
+    "title": "FIFO Grounds Utility",
+    "company": "Programmed",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93680824"
+  },
+  {
+    "jobKey": "entry level fifo driller's offsider|lh partners|perth wa|https://www.seek.com.au/job/93539722",
+    "title": "Entry Level FIFO Driller's Offsider",
+    "company": "LH Partners",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$120,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93539722"
+  },
+  {
+    "jobKey": "exploration trainee driller's offsider (assistant) | entry level | fifo in wa|true resources|perth wa|https://www.seek.com.au/job/93534324",
+    "title": "Exploration Trainee Driller's Offsider (Assistant) | Entry Level | FIFO in WA",
+    "company": "True Resources",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "First Aid",
+      "Confined Space"
+    ],
+    "salary": "$130,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93534324"
+  },
+  {
+    "jobKey": "fifo utility - experienced only | casual|ironmerge pty ltd|perth wa (remote)|https://www.seek.com.au/job/93272918",
+    "title": "FIFO Utility - Experienced Only | Casual",
+    "company": "IronMerge Pty Ltd",
+    "location": "Perth WA (Remote)",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Food Safety"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93272918"
+  },
+  {
+    "jobKey": "trades assistant|ramelius resources ltd|perth wa|https://www.seek.com.au/job/93517474",
+    "title": "Trades Assistant",
+    "company": "Ramelius Resources Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93517474"
+  },
+  {
+    "jobKey": "trades assistant - sino iron|national group|port hedland, karratha & pilbara wa|https://www.seek.com.au/job/93415761",
+    "title": "Trades Assistant - Sino Iron",
+    "company": "National Group",
+    "location": "Port Hedland, Karratha & Pilbara WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93415761"
+  },
+  {
+    "jobKey": "entry level driller's offsiders | wa based - south west|tbs workforce pty ltd|bunbury, bunbury & south west wa|https://www.seek.com.au/job/93482434",
+    "title": "Entry Level Driller's Offsiders | WA Based - South West",
+    "company": "TBS Workforce Pty Ltd",
+    "location": "Bunbury, Bunbury & South West WA",
+    "roster": "2/1",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "$49.00 per hour",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93482434"
+  },
+  {
+    "jobKey": "eoi - boilermakers, mechanical fitters, riggers, trades assistants, e&i techs|innovent resources|perth wa|https://www.seek.com.au/job/93683513",
+    "title": "EOI - Boilermakers, Mechanical Fitters, Riggers, Trades Assistants, E&I Techs",
+    "company": "Innovent Resources",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "National Police Check",
+      "Working at Heights",
+      "Confined Space"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93683513"
+  },
+  {
     "jobKey": "multiple trades & leadership roles – fifo & dido mining shutdowns across wa|marlu group|perth wa|https://www.seek.com.au/job/92383119",
     "title": "MULTIPLE TRADES & LEADERSHIP ROLES – FIFO & DIDO MINING SHUTDOWNS ACROSS WA",
     "company": "Marlu Group",
@@ -187,5 +1534,342 @@ const jobs = [
     "lastChecked": "",
     "status": "Active",
     "applyUrl": "https://www.seek.com.au/job/92383119"
+  },
+  {
+    "jobKey": "drillers offsider|techforce personnel pty.|perth wa|https://www.seek.com.au/job/93580376",
+    "title": "Drillers Offsider",
+    "company": "Techforce Personnel Pty.",
+    "location": "Perth WA",
+    "roster": "2/1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93580376"
+  },
+  {
+    "jobKey": "site administrator|multiplant pty ltd|perth wa|https://www.seek.com.au/job/92796732",
+    "title": "Site Administrator",
+    "company": "Multiplant Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/92796732"
+  },
+  {
+    "jobKey": "fifo utility - service attendant|sodexo|perth wa|https://www.seek.com.au/job/93577680",
+    "title": "FIFO Utility - Service Attendant",
+    "company": "Sodexo",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check",
+      "Food Safety"
+    ],
+    "salary": "$90,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93577680"
+  },
+  {
+    "jobKey": "site administrator (experienced) - fifo 2:1|red arrow australia|perth wa|https://www.seek.com.au/job/93160036",
+    "title": "Site Administrator (Experienced) - FIFO 2:1",
+    "company": "Red Arrow Australia",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93160036"
+  },
+  {
+    "jobKey": "fifo admin|kollab recruitment group|perth wa|https://www.seek.com.au/job/93600224",
+    "title": "FIFO Admin",
+    "company": "Kollab Recruitment Group",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "site-administrator",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check"
+    ],
+    "salary": "$40",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93600224"
+  },
+  {
+    "jobKey": "underground nipper|gold fields australia pty limited|perth wa|https://www.seek.com.au/job/93361853",
+    "title": "Underground Nipper",
+    "company": "Gold Fields Australia Pty Limited",
+    "location": "Perth WA",
+    "roster": "8/6",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "Working at Heights"
+    ],
+    "salary": "$10",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93361853"
+  },
+  {
+    "jobKey": "fifo labourer/sampler - aboriginal or torres strait islander candidates only|eastern guruma|perth wa|https://www.seek.com.au/job/93362029",
+    "title": "FIFO Labourer/Sampler - Aboriginal or Torres Strait Islander candidates only",
+    "company": "EASTERN GURUMA",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "utility-worker",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "HR Licence",
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$41.50 per hour",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93362029"
+  },
+  {
+    "jobKey": "driller's offsider nsw - entry level traineeships!|ddh1 drilling pty ltd|perth wa|https://www.seek.com.au/job/93483265",
+    "title": "Driller's Offsider NSW - Entry Level Traineeships!",
+    "company": "DDH1 Drilling Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93483265"
+  },
+  {
+    "jobKey": "underground diamond driller offsider - assessment day|westgold resources limited|perth wa|https://www.seek.com.au/job/93654060",
+    "title": "Underground Diamond Driller Offsider - Assessment Day",
+    "company": "Westgold Resources Limited",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$120",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93654060"
+  },
+  {
+    "jobKey": "driller's offsiders wa|ddh1 drilling pty ltd|perth wa|https://www.seek.com.au/job/93622008",
+    "title": "Driller's Offsiders WA",
+    "company": "DDH1 Drilling Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93622008"
+  },
+  {
+    "jobKey": "fifo driller offsiders – no experience needed | earn $110k+ year 1|aston advantage|perth wa|https://www.seek.com.au/job/93526658",
+    "title": "FIFO Driller Offsiders – No Experience Needed | Earn $110K+ Year 1",
+    "company": "Aston Advantage",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$110",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93526658"
+  },
+  {
+    "jobKey": "driller offsider|maincrew pty ltd|perth wa|https://www.seek.com.au/job/93578725",
+    "title": "Driller Offsider",
+    "company": "MAINCREW PTY LTD",
+    "location": "Perth WA",
+    "roster": "FIFO",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "$39",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93578725"
+  },
+  {
+    "jobKey": "underground mining vacanies|stamco group|kalgoorlie, kalgoorlie, goldfields & esperance wa|https://www.seek.com.au/job/93654427",
+    "title": "Underground Mining Vacanies",
+    "company": "Stamco Group",
+    "location": "Kalgoorlie, Kalgoorlie, Goldfields & Esperance WA",
+    "roster": "Not listed",
+    "category": "underground-nipper",
+    "experience": "entry",
+    "beginnerFriendly": false,
+    "tickets": [
+      "C Class Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93654427"
+  },
+  {
+    "jobKey": "trade assistant - fifo 2:1|uon pty ltd|malaga, perth wa (remote)|https://www.seek.com.au/job/93594410",
+    "title": "Trade Assistant - FIFO 2:1",
+    "company": "UON Pty Ltd",
+    "location": "Malaga, Perth WA (Remote)",
+    "roster": "2:1",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "White Card",
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93594410"
+  },
+  {
+    "jobKey": "driller's offsider vic - entry level traineeships!|ddh1 drilling pty ltd|perth wa|https://www.seek.com.au/job/93483273",
+    "title": "Driller's Offsider VIC - Entry Level Traineeships!",
+    "company": "DDH1 Drilling Pty Ltd",
+    "location": "Perth WA",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "National Police Check",
+      "First Aid"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93483273"
+  },
+  {
+    "jobKey": "entry level and experienced drillers and offsiders|itch recruitment|perth wa (hybrid)|https://www.seek.com.au/job/93685046",
+    "title": "Entry Level and Experienced Drillers and Offsiders",
+    "company": "Itch Recruitment",
+    "location": "Perth WA (Hybrid)",
+    "roster": "2:1",
+    "category": "drillers-offsider",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "C Class Licence",
+      "National Police Check"
+    ],
+    "salary": "$120,000",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93685046"
+  },
+  {
+    "jobKey": "trade assistant|gem resourcing|hazelmere, perth wa|https://www.seek.com.au/job/93618969",
+    "title": "Trade Assistant",
+    "company": "GEM Resourcing",
+    "location": "Hazelmere, Perth WA",
+    "roster": "Not listed",
+    "category": "trade-assistant",
+    "experience": "entry",
+    "beginnerFriendly": true,
+    "tickets": [
+      "Forklift Licence"
+    ],
+    "salary": "Not listed",
+    "source": "SEEK",
+    "dateAdded": "2026-08-02",
+    "lastChecked": "2026-08-02",
+    "status": "Active",
+    "applyUrl": "https://www.seek.com.au/job/93618969"
   }
 ];
