@@ -18,10 +18,12 @@ function renderJobs(jobItems) {
 
     const today = new Date();
 
-    const addedDate = new Date(job.dateAdded + "T00:00:00");
+    const referenceDate = new Date(
+      (job.lastChecked || job.dateAdded) + "T00:00:00"
+    );
 
     const daysSinceAdded =
-      (today - addedDate) / (1000 * 60 * 60 * 24);
+      (today - referenceDate) / (1000 * 60 * 60 * 24);
 
     const isNewJob = daysSinceAdded <= 7;
 
@@ -53,7 +55,7 @@ function renderJobs(jobItems) {
         <span><strong>Tickets:</strong> ${job.tickets.join(", ")}</span>
         <span><strong>Salary:</strong> ${job.salary}</span>
         <span><strong>Source:</strong> ${job.source}</span>
-        <span><strong>Added:</strong> ${job.dateAdded}</span>
+        <span><strong>Last checked:</strong> ${job.lastChecked || job.dateAdded}</span>
       </div>
 
       <a href="${job.applyUrl}" target="_blank">
@@ -224,8 +226,8 @@ if (jobCount) {
 if (lastUpdated && jobs.length > 0) {
 
   const latestDate = jobs
-    .map(job => new Date(job.dateAdded))
-    .sort((a, b) => b - a)[0];
+  .map(job => new Date(job.lastChecked || job.dateAdded))
+  .sort((a, b) => b - a)[0];
 
   lastUpdated.textContent =
     latestDate.toLocaleDateString("en-AU");
