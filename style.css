@@ -1920,3 +1920,81 @@ a {
   margin-bottom: 14px;
   line-height: 1.6;
 }
+
+/* FIFOKIT Android app integration */
+
+.app-fallback-page {
+  min-height: 100vh;
+  padding: 100px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-fallback-card {
+  width: 100%;
+  max-width: 760px;
+
+  background: #171717;
+
+  border: 1px solid rgba(245, 166, 35, 0.28);
+  border-radius: 24px;
+
+  padding: 44px;
+}
+
+.app-promo-eyebrow {
+  color: #F5A623;
+
+  font-size: 13px;
+  font-weight: 800;
+
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.app-fallback-card h1 {
+  font-family: 'Oswald', sans-serif;
+
+  font-size: 52px;
+  line-height: 1.05;
+
+  text-transform: uppercase;
+
+  margin-bottom: 22px;
+}
+
+.app-fallback-card p {
+  color: #D0D0D0;
+
+  line-height: 1.7;
+}
+
+.app-fallback-actions {
+  display: flex;
+
+  gap: 14px;
+
+  flex-wrap: wrap;
+
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+
+  .app-fallback-card {
+    padding: 28px 22px;
+  }
+
+  .app-fallback-card h1 {
+    font-size: 40px;
+  }
+
+  .app-fallback-actions {
+    flex-direction: column;
+  }
+}
