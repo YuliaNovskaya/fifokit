@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H4GZNCN92"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5H4GZNCN92');
+    gtag('event', 'app_fallback_view', {destination: 'finance'});
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -37,6 +45,7 @@
       <a
         class="primary-btn"
         href="https://play.google.com/store/apps/details?id=com.fifokit.app&referrer=utm_source%3Dfifokit_website%26utm_medium%3Dapp_fallback%26utm_campaign%3Dp7_app_integration%26utm_content%3Dfinance"
+        onclick="gtag('event','play_store_click',{destination:'finance'});"
       >
         Get FIFOKIT on Google Play
       </a>
